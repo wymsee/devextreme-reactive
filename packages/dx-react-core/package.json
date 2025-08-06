@@ -1,18 +1,18 @@
 {
-  "name": "@devexpress/dx-react-core",
+  "name": "@synconset/dx-react-core",
   "version": "4.0.11",
-  "description": "Core library for DevExtreme React Components",
+  "description": "Core library for Synconset React Components",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Synconset Inc.",
+    "url": "https://www.synconset.com/"
   },
   "bugs": {
-    "url": "https://github.com/DevExpress/devextreme-reactive/issues"
+    "url": "https://github.com/wymsee/devextreme-reactive/issues"
   },
-  "homepage": "https://devexpress.github.io/devextreme-reactive/",
+  "homepage": "https://synconset.github.io/synconset-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git+https://github.com/wymsee/devextreme-reactive"
   },
   "keywords": [
     "react",
@@ -23,7 +23,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "globalName": "DevExpress.DXReactCore",
+  "globalName": "Synconset.DXReactCore",
   "type": "module",
   "exports": {
     ".": {
@@ -77,7 +77,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@devexpress/dx-core": "4.0.11",
+    "@synconset/dx-core": "4.0.11",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {

@@ -1,18 +1,18 @@
 {
-  "name": "@devexpress/dx-react-scheduler",
+  "name": "@synconset/dx-react-scheduler",
   "version": "4.0.11",
   "description": "Composable plugin-based scheduler component for React",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Synconset Inc.",
+    "url": "https://www.synconset.com/"
   },
   "bugs": {
-    "url": "https://github.com/DevExpress/devextreme-reactive/issues"
+    "url": "https://github.com/wymsee/devextreme-reactive/issues"
   },
-  "homepage": "https://devexpress.github.io/devextreme-reactive/",
+  "homepage": "https://synconset.github.io/synconset-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git+https://github.com/wymsee/devextreme-reactive"
   },
   "keywords": [
     "react",
@@ -39,7 +39,7 @@
   },
   "main": "dist/dx-react-scheduler.umd.cjs",
   "module": "dist/dx-react-scheduler.es.js",
-  "globalName": "DevExpress.DXReactScheduler",
+  "globalName": "Synconset.DXReactScheduler",
   "files": [
     "dist"
   ],
@@ -64,9 +64,9 @@
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.8.3",
-    "@devexpress/dx-core": "4.0.11",
-    "@devexpress/dx-react-core": "4.0.11",
-    "@devexpress/dx-testing": "4.0.11",
+    "@synconset/dx-core": "4.0.11",
+    "@synconset/dx-react-core": "4.0.11",
+    "@synconset/dx-testing": "4.0.11",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^29.2.2",
@@ -86,11 +86,11 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@devexpress/dx-scheduler-core": "4.0.11"
+    "@synconset/dx-scheduler-core": "4.0.11"
   },
   "peerDependencies": {
-    "@devexpress/dx-core": "4.0.11",
-    "@devexpress/dx-react-core": "4.0.11",
+    "@synconset/dx-core": "4.0.11",
+    "@synconset/dx-react-core": "4.0.11",
     "moment": "^2.24.0",
     "react": ">=17.0.2",
     "react-dom": ">=17.0.2"

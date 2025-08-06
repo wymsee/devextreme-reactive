@@ -1,18 +1,18 @@
 {
-  "name": "@devexpress/dx-react-chart-material-ui",
+  "name": "@synconset/dx-react-chart-material-ui",
   "version": "4.0.11",
-  "description": "Material-UI templates for DevExtreme React Chart component",
+  "description": "Material-UI templates for Synconset React Chart component",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Synconset Inc.",
+    "url": "https://www.synconset.com/"
   },
   "bugs": {
-    "url": "https://github.com/DevExpress/devextreme-reactive/issues"
+    "url": "https://github.com/wymsee/devextreme-reactive/issues"
   },
-  "homepage": "https://devexpress.github.io/devextreme-reactive/",
+  "homepage": "https://synconset.github.io/synconset-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git+https://github.com/wymsee/devextreme-reactive"
   },
   "keywords": [
     "react",
@@ -43,7 +43,7 @@
   },
   "main": "dist/dx-react-chart-material-ui.cjs.cjs",
   "module": "dist/dx-react-chart-material-ui.es.js",
-  "globalName": "DevExpress.DXReactChartMaterialUI",
+  "globalName": "Synconset.DXReactChartMaterialUI",
   "files": [
     "dist"
   ],
@@ -65,8 +65,8 @@
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.8.3",
-    "@devexpress/dx-react-core": "4.0.11",
-    "@devexpress/dx-testing": "4.0.11",
+    "@synconset/dx-react-core": "4.0.11",
+    "@synconset/dx-testing": "4.0.11",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@mui/icons-material": "^5.11.0",
@@ -103,9 +103,9 @@
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "@devexpress/dx-chart-core": "4.0.11",
-    "@devexpress/dx-react-chart": "4.0.11",
-    "@devexpress/dx-react-core": "4.0.11",
+    "@synconset/dx-chart-core": "4.0.11",
+    "@synconset/dx-react-chart": "4.0.11",
+    "@synconset/dx-react-core": "4.0.11",
     "@emotion/react": ">=11.4.1",
     "@emotion/styled": ">=11.3.0",
     "@mui/icons-material": ">=5.0.0",

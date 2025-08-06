@@ -4,7 +4,7 @@ We use the [Fork-and-Branch workflow](http://blog.scottlowe.org/2015/01/27/using
 
 **Do not clone the main repository**
 
-[Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to the `master` branch when you are ready to submit your changes. Each pull request should pass all automatic checks and at least one member of the DevExtreme team should [review](https://help.github.com/articles/about-pull-request-reviews/) it.
+[Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to the `master` branch when you are ready to submit your changes. Each pull request should pass all automatic checks and at least one member of the Synconset team should [review](https://help.github.com/articles/about-pull-request-reviews/) it.
 
 Make sure that you properly configure your Git [username](https://help.github.com/articles/setting-your-username-in-git) and [email](https://help.github.com/articles/setting-your-email-in-git).
 
@@ -30,8 +30,8 @@ After installation, the following commands are available:
 - `yarn lint` or `npm run lint` - Executes linters
 - `yarn test` or `npm run test` - Runs tests
 - `yarn test:watch` or `npm run test:watch` - Runs an interactive test watcher
-- `yarn build`  or `npm run build` - Builds DevExtreme Reactive
-- `yarn build:watch`  or `npm run build:watch` - Builds DevExtreme Reactive in watch mode and runs demos. The following demo URLs are accessible:
+- `yarn build`  or `npm run build` - Builds Synconset Reactive
+- `yarn build:watch`  or `npm run build:watch` - Builds Synconset Reactive in watch mode and runs demos. The following demo URLs are accessible:
 
   - `http://localhost:3002/` - Grid demos
   - `http://localhost:3004/` - Chart demos

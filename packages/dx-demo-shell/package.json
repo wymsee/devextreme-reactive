@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "@devexpress/dx-demo-shell",
+  "name": "@synconset/dx-demo-shell",
   "version": "4.0.11",
-  "description": "DevExtreme Reactive Components Demo Shell",
+  "description": "Synconset Reactive Components Demo Shell",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Synconset Inc.",
+    "url": "https://www.synconset.com/"
   },
   "license": "SEE LICENSE IN README.md",
   "type": "module",

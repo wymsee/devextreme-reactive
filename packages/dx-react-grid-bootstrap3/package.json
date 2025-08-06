@@ -1,18 +1,18 @@
 {
-  "name": "@devexpress/dx-react-grid-bootstrap3",
+  "name": "@synconset/dx-react-grid-bootstrap3",
   "version": "4.0.11",
-  "description": "Bootstrap 3 templates for DevExtreme React Grid component",
+  "description": "Bootstrap 3 templates for Synconset React Grid component",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Synconset Inc.",
+    "url": "https://www.synconset.com/"
   },
   "bugs": {
-    "url": "https://github.com/DevExpress/devextreme-reactive/issues"
+    "url": "https://github.com/wymsee/devextreme-reactive/issues"
   },
-  "homepage": "https://devexpress.github.io/devextreme-reactive/",
+  "homepage": "https://synconset.github.io/synconset-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git+https://github.com/wymsee/devextreme-reactive"
   },
   "keywords": [
     "react",
@@ -42,7 +42,7 @@
   },
   "main": "dist/dx-react-grid-bootstrap3.umd.cjs",
   "module": "dist/dx-react-grid-bootstrap3.es.js",
-  "globalName": "DevExpress.DXReactGridBootstrap3",
+  "globalName": "Synconset.DXReactGridBootstrap3",
   "files": [
     "dist"
   ],
@@ -64,10 +64,10 @@
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.8.3",
-    "@devexpress/dx-grid-core": "4.0.11",
-    "@devexpress/dx-react-core": "4.0.11",
-    "@devexpress/dx-react-grid": "4.0.11",
-    "@devexpress/dx-testing": "4.0.11",
+    "@synconset/dx-grid-core": "4.0.11",
+    "@synconset/dx-react-core": "4.0.11",
+    "@synconset/dx-react-grid": "4.0.11",
+    "@synconset/dx-testing": "4.0.11",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^7.0.0-bridge.0",
@@ -99,9 +99,9 @@
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "@devexpress/dx-grid-core": "4.0.11",
-    "@devexpress/dx-react-core": "4.0.11",
-    "@devexpress/dx-react-grid": "4.0.11",
+    "@synconset/dx-grid-core": "4.0.11",
+    "@synconset/dx-react-core": "4.0.11",
+    "@synconset/dx-react-grid": "4.0.11",
     "react": "^17.0.2",
     "react-bootstrap": "=0.33.0",
     "react-dom": "^17.0.2"

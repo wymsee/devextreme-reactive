@@ -1,18 +1,18 @@
 {
-  "name": "@devexpress/dx-scheduler-core",
+  "name": "@synconset/dx-scheduler-core",
   "version": "4.0.11",
-  "description": "Core library for the DevExtreme Reactive Scheduler component",
+  "description": "Core library for the Synconset Reactive Scheduler component",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Synconset Inc.",
+    "url": "https://www.synconset.com/"
   },
   "bugs": {
-    "url": "https://github.com/DevExpress/devextreme-reactive/issues"
+    "url": "https://github.com/wymsee/devextreme-reactive/issues"
   },
-  "homepage": "https://devexpress.github.io/devextreme-reactive/",
+  "homepage": "https://synconset.github.io/synconset-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git+https://github.com/wymsee/devextreme-reactive"
   },
   "keywords": [
     "data",
@@ -38,7 +38,7 @@
   },
   "main": "dist/dx-scheduler-core.umd.cjs",
   "module": "dist/dx-scheduler-core.es.js",
-  "globalName": "DevExpress.DXSchedulerCore",
+  "globalName": "Synconset.DXSchedulerCore",
   "files": [
     "dist"
   ],
@@ -59,7 +59,7 @@
     "@babel/core": "^7.8.7",
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
-    "@devexpress/dx-core": "4.0.11",
+    "@synconset/dx-core": "4.0.11",
     "@rollup/plugin-replace": "^2.3.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^29.2.2",
@@ -79,7 +79,7 @@
     "typescript": "^4.8.4"
   },
   "peerDependencies": {
-    "@devexpress/dx-core": "4.0.11"
+    "@synconset/dx-core": "4.0.11"
   },
   "dependencies": {
     "moment": "^2.24.0",

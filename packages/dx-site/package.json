@@ -1,17 +1,17 @@
 {
   "private": true,
-  "name": "@devexpress/dx-site",
-  "description": "DevExtreme Reactive Site",
+  "name": "@synconset/dx-site",
+  "description": "Synconset Reactive Site",
   "version": "4.0.11",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Synconset Inc.",
+    "url": "https://www.synconset.com/"
   },
   "license": "SEE LICENSE IN README.md",
-  "homepage": "https://devexpress.github.io/devextreme-reactive/",
+  "homepage": "https://synconset.github.io/synconset-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git+https://github.com/wymsee/devextreme-reactive"
   },
   "scripts": {
     "build:prod": "gatsby build --prefix-paths",

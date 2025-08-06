@@ -1,19 +1,19 @@
 {
-  "name": "@devexpress/dx-vue-grid",
+  "name": "@synconset/dx-vue-grid",
   "private": true,
   "version": "4.0.11",
   "description": "Composable plugin-based data grid component for Vue",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Synconset Inc.",
+    "url": "https://www.synconset.com/"
   },
   "bugs": {
-    "url": "https://github.com/DevExpress/devextreme-reactive/issues"
+    "url": "https://github.com/wymsee/devextreme-reactive/issues"
   },
-  "homepage": "https://devexpress.github.io/devextreme-reactive/",
+  "homepage": "https://synconset.github.io/synconset-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git+https://github.com/wymsee/devextreme-reactive"
   },
   "keywords": [
     "vue",
@@ -27,7 +27,7 @@
   "type": "module",
   "main": "dist/dx-vue-grid.umd.cjs",
   "module": "dist/dx-vue-grid.es.js",
-  "globalName": "DevExpress.DXVueGrid",
+  "globalName": "Synconset.DXVueGrid",
   "files": [
     "dist"
   ],
@@ -41,7 +41,7 @@
     "lint:fix": "yarn lint -- --fix"
   },
   "devDependencies": {
-    "@devexpress/dx-testing": "4.0.11",
+    "@synconset/dx-testing": "4.0.11",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "^6.26.3",
@@ -69,11 +69,11 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "@devexpress/dx-core": "4.0.11",
-    "@devexpress/dx-grid-core": "4.0.11"
+    "@synconset/dx-core": "4.0.11",
+    "@synconset/dx-grid-core": "4.0.11"
   },
   "peerDependencies": {
-    "@devexpress/dx-vue-core": "4.0.11",
+    "@synconset/dx-vue-core": "4.0.11",
     "vue": ">=2.6.10"
   }
 }

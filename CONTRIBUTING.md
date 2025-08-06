@@ -6,13 +6,13 @@ Submit an issue to request a feature or report a bug. Check the list of active i
 
 ## Help and Support
 
-Create a ticket in our [Support Center](https://www.devexpress.com/ask) if you own an active commercial license for DevExtreme Reactive. If you have a non-commercial license, refer to Stack Overflow for support.
+Create a ticket in our [Support Center](https://github.com/wymsee/devextreme-reactive/issues) or refer to Stack Overflow for support.
 
 ## Contribute Code and Content
 
-Important: **Read Section 5 of the [LICENSE AGREEMENT](LICENSE.md#5-submission-of-contributions) before you submit any contribution.**
+Important: **Read the [LICENSE AGREEMENT](LICENSE.md) before you submit any contribution.**
 
-Note that DevExtreme Reactive has a development schedule and we cannot accept every pull request from non-DevExpress contributors.
+Note that Synconset Reactive has a development schedule and we cannot accept every pull request from non-Synconset contributors.
 
 However, you can fork the repository, modify the source code in your fork, and make your builds.
 
