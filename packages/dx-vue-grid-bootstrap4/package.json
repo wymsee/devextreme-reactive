@@ -75,8 +75,8 @@
     "@synconset/dx-grid-core": "^4.0.13"
   },
   "peerDependencies": {
-    "@synconset/dx-vue-core": "4.0.11",
-    "@synconset/dx-vue-grid": "4.0.11",
+    "@synconset/dx-vue-core": ">=4.0.0 <5",
+    "@synconset/dx-vue-grid": ">=4.0.0 <5",
     "vue": ">=2.6.10"
   }
 }

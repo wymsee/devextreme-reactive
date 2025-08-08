@@ -102,9 +102,9 @@
     "react-popper": "~2.2.5"
   },
   "peerDependencies": {
-    "@synconset/dx-grid-core": "4.0.11",
-    "@synconset/dx-react-core": "4.0.11",
-    "@synconset/dx-react-grid": "4.0.11",
+    "@synconset/dx-grid-core": ">=4.0.0 <5",
+    "@synconset/dx-react-core": ">=4.0.0 <5",
+    "@synconset/dx-react-grid": ">=4.0.0 <5",
     "react": ">=17.0.2"
   }
 }
