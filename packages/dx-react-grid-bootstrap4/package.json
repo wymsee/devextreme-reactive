@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-grid-bootstrap4",
-  "version": "4.0.13",
+  "version": "4.0.14",
   "description": "Bootstrap 4 templates for Synconset React Grid component",
   "author": {
     "name": "Synconset Inc.",
@@ -67,9 +67,9 @@
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.8.3",
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "@synconset/dx-grid-core": "^4.0.13",
+    "@synconset/dx-grid-core": "^4.0.14",
     "@synconset/dx-react-core": "^4.0.12",
-    "@synconset/dx-react-grid": "^4.0.13",
+    "@synconset/dx-react-grid": "^4.0.14",
     "@synconset/dx-testing": "^4.0.12",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^7.0.0-bridge.0",

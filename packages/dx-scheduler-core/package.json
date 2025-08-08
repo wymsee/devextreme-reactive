@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-scheduler-core",
-  "version": "4.0.12",
+  "version": "4.0.14",
   "description": "Core library for the Synconset Reactive Scheduler component",
   "author": {
     "name": "Synconset Inc.",

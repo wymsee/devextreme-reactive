@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-scheduler",
-  "version": "4.0.12",
+  "version": "4.0.14",
   "description": "Composable plugin-based scheduler component for React",
   "author": {
     "name": "Synconset Inc.",
@@ -86,7 +86,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@synconset/dx-scheduler-core": "^4.0.12"
+    "@synconset/dx-scheduler-core": "^4.0.14"
   },
   "peerDependencies": {
     "@synconset/dx-core": ">=4.0.0 <5",

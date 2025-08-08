@@ -1,7 +1,7 @@
 {
   "name": "@synconset/dx-vue-grid-bootstrap4",
   "private": true,
-  "version": "4.0.13",
+  "version": "4.0.14",
   "description": "Bootstrap 4 templates for DevExtreme Vue Grid component",
   "author": {
     "name": "Synconset Inc.",
@@ -72,7 +72,7 @@
   },
   "dependencies": {
     "@synconset/dx-core": "^4.0.12",
-    "@synconset/dx-grid-core": "^4.0.13"
+    "@synconset/dx-grid-core": "^4.0.14"
   },
   "peerDependencies": {
     "@synconset/dx-vue-core": ">=4.0.0 <5",
