@@ -1,7 +1,7 @@
 {
   "name": "@synconset/dx-grid-core",
   "version": "4.0.12",
-  "description": "Core library for the Synconset Reactive Grid component",
+  "description": "Core library for the Reactive Grid component",
   "author": {
     "name": "Synconset Inc.",
     "url": "https://www.synconset.com/"
