@@ -1,5 +1,5 @@
 import { shallow } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
+import { setupConsole } from '@synconset/dx-testing';
 import { RowsBlockLayout } from './rows-block-layout';
 import { RowLayout } from './row-layout';
 

@@ -1,4 +1,4 @@
-import { DxGroupingState, DxCustomGrouping } from '@devexpress/dx-vue-grid';
+import { DxGroupingState, DxCustomGrouping } from '@synconset/dx-vue-grid';
 import {
   DxGrid,
   DxVirtualTable,
@@ -6,7 +6,7 @@ import {
   DxTableGroupRow,
   DxGroupingPanel,
   DxToolbar,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 import { Loading as DxLoading } from '../../../theme-sources/none/components/loading';
 

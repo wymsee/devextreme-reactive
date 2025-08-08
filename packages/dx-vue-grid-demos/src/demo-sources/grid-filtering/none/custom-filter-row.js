@@ -1,13 +1,13 @@
 import {
   DxFilteringState,
   DxIntegratedFiltering,
-} from '@devexpress/dx-vue-grid';
+} from '@synconset/dx-vue-grid';
 import {
   DxGrid,
   DxTable,
   DxTableHeaderRow,
   DxTableFilterRow,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 import {
   generateRows,

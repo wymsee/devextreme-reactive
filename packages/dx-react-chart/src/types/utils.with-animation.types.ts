@@ -1,4 +1,4 @@
-import { CommonComponentProps } from '@devexpress/dx-chart-core';
+import { CommonComponentProps } from '@synconset/dx-chart-core';
 
 /** @internal */
 export interface AnimatedComponent extends CommonComponentProps {

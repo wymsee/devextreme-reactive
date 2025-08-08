@@ -2,12 +2,12 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import moment from 'moment';
-import { ViewState } from '@devexpress/dx-react-scheduler';
+import { ViewState } from '@synconset/dx-react-scheduler';
 import {
   Scheduler,
   WeekView,
   Appointments,
-} from '@devexpress/dx-react-scheduler-material-ui';
+} from '@synconset/dx-react-scheduler-material-ui';
 
 import { appointments } from '../../../demo-data/appointments';
 

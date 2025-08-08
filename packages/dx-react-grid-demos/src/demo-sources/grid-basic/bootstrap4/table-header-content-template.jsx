@@ -3,7 +3,7 @@ import {
   Grid,
   Table,
   TableHeaderRow,
-} from '@devexpress/dx-react-grid-bootstrap4';
+} from '@synconset/dx-react-grid-bootstrap4';
 import {
   generateRows,
   globalSalesValues,

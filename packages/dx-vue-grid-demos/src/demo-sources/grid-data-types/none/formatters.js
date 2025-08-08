@@ -1,9 +1,9 @@
-import { DxDataTypeProvider } from '@devexpress/dx-vue-grid';
+import { DxDataTypeProvider } from '@synconset/dx-vue-grid';
 import {
   DxGrid,
   DxTable,
   DxTableHeaderRow,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 import {
   generateRows,

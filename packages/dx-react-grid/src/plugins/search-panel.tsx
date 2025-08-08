@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   Template,
   TemplatePlaceholder,
   Plugin,
   TemplateConnector,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   TOP_POSITION,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { SearchPanelProps } from '../types';
 
 const pluginDependencies = [

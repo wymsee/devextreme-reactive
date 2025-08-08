@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { ColumnChooser as ColumnChooserBase } from '@devexpress/dx-react-grid';
+import { withComponents } from '@synconset/dx-react-core';
+import { ColumnChooser as ColumnChooserBase } from '@synconset/dx-react-grid';
 import { Overlay } from '../templates/parts/overlay';
 import { Container } from '../templates/column-chooser/container';
 import { Item } from '../templates/column-chooser/item';

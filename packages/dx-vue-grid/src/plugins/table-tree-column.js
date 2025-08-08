@@ -1,7 +1,7 @@
 import {
   DxTemplate, DxPlugin, DxTemplateConnector, DxTemplatePlaceholder,
-} from '@devexpress/dx-vue-core';
-import { isTreeTableCell } from '@devexpress/dx-grid-core';
+} from '@synconset/dx-vue-core';
+import { isTreeTableCell } from '@synconset/dx-grid-core';
 
 export const DxTableTreeColumn = {
   name: 'DxTableTreeColumn',

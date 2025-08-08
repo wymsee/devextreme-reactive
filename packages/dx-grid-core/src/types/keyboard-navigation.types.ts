@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import { TableColumn, TableRow, RowId } from '../types';
 
 export interface FocusedElement {

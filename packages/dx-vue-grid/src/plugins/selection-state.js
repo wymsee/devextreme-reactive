@@ -1,5 +1,5 @@
-import { DxGetter, DxAction, DxPlugin } from '@devexpress/dx-vue-core';
-import { toggleSelection } from '@devexpress/dx-grid-core';
+import { DxGetter, DxAction, DxPlugin } from '@synconset/dx-vue-core';
+import { toggleSelection } from '@synconset/dx-grid-core';
 
 export const DxSelectionState = {
   name: 'DxSelectionState',

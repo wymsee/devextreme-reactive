@@ -5,12 +5,12 @@ import {
   TableHeaderRow,
   TableColumnResizing,
   Toolbar,
-} from '@devexpress/dx-react-grid-bootstrap3';
+} from '@synconset/dx-react-grid-bootstrap3';
 import {
   Plugin,
   Template,
   TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 
 import { generateRows } from '../../../demo-data/generator';
 

@@ -1,14 +1,14 @@
 
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   tableColumnsWithGrouping,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { TableColumnsWithGrouping } from './table-group-row-columns';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableColumnsWithGrouping: jest.fn(),
 }));
 

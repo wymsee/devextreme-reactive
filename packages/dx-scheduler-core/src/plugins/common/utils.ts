@@ -1,6 +1,6 @@
 import moment, { Moment } from 'moment';
 import { ViewCell } from '../../types';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 
 export const getDayScaleCellColSpan: PureComputed<
   [ViewCell[][]], number

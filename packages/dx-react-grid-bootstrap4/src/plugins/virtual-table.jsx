@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { makeVirtualTable } from '@devexpress/dx-react-grid';
+import { makeVirtualTable } from '@synconset/dx-react-grid';
 import { Table } from './table';
 import { Table as TableComponent } from '../templates/table';
 import { TableSkeletonCell as SkeletonCell } from '../templates/table-skeleton-cell';

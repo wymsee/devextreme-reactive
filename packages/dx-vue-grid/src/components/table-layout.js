@@ -1,4 +1,4 @@
-import { TABLE_FLEX_TYPE } from '@devexpress/dx-grid-core';
+import { TABLE_FLEX_TYPE } from '@synconset/dx-grid-core';
 
 export const TableLayout = {
   props: {

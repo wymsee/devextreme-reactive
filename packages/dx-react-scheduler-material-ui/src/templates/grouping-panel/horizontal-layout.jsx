@@ -1,6 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { getCellKey, getRowFromGroups } from '@devexpress/dx-scheduler-core';
+import { getCellKey, getRowFromGroups } from '@synconset/dx-scheduler-core';
 
 export const HorizontalLayout = ({
   rowComponent: Row,

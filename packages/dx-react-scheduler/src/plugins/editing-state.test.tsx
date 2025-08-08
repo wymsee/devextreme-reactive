@@ -2,8 +2,8 @@ import * as React from 'react';
 import { mount } from 'enzyme';
 import {
   testStatePluginField, executeComputedAction, pluginDepsToComponents, getComputedState,
-} from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+} from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   addAppointment,
   cancelAddedAppointment,
@@ -11,11 +11,11 @@ import {
   stopEditAppointment,
   changeAppointment,
   cancelChanges,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { EditingState } from './editing-state';
 
-jest.mock('@devexpress/dx-scheduler-core', () => ({
-  ...jest.requireActual('@devexpress/dx-scheduler-core'),
+jest.mock('@synconset/dx-scheduler-core', () => ({
+  ...jest.requireActual('@synconset/dx-scheduler-core'),
   startEditAppointment: jest.fn(),
   stopEditAppointment: jest.fn(),
   deleteAppointment: jest.fn(),

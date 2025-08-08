@@ -1,18 +1,18 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   computed,
   timeCellsData,
   calculateWeekDateIntervals,
   getTimeTableHeight,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { VerticalView } from './vertical-view';
 import { BasicView } from './basic-view';
 
-jest.mock('@devexpress/dx-scheduler-core', () => ({
-  ...jest.requireActual('@devexpress/dx-scheduler-core'),
+jest.mock('@synconset/dx-scheduler-core', () => ({
+  ...jest.requireActual('@synconset/dx-scheduler-core'),
   computed: jest.fn(),
   startViewDate: jest.fn(),
   endViewDate: jest.fn(),

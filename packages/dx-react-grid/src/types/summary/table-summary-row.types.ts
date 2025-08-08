@@ -1,4 +1,4 @@
-import { GetMessageFn } from '@devexpress/dx-core';
+import { GetMessageFn } from '@synconset/dx-core';
 import { Table, SummaryType, Column, ColumnSummary } from '../index';
 
 // tslint:disable-next-line: no-namespace

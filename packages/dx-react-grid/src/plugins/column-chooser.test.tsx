@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { columnChooserItems } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { pluginDepsToComponents } from '@devexpress/dx-testing';
+import { columnChooserItems } from '@synconset/dx-grid-core';
+import { PluginHost } from '@synconset/dx-react-core';
+import { pluginDepsToComponents } from '@synconset/dx-testing';
 import { ColumnChooser } from './column-chooser';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   columnChooserItems: jest.fn(),
 }));
 

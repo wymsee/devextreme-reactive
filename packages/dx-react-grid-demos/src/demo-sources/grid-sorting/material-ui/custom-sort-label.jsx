@@ -3,12 +3,12 @@ import Paper from '@mui/material/Paper';
 import {
   SortingState,
   IntegratedSorting,
-} from '@devexpress/dx-react-grid';
+} from '@synconset/dx-react-grid';
 import {
   Grid,
   Table,
   TableHeaderRow,
-} from '@devexpress/dx-react-grid-material-ui';
+} from '@synconset/dx-react-grid-material-ui';
 
 import Button from '@mui/material/Button';
 import ArrowDownward from '@mui/icons-material/ArrowDownward';

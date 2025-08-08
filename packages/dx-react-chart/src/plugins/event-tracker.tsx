@@ -5,8 +5,8 @@ import {
   Getter,
   TemplatePlaceholder,
   TemplateConnector,
-} from '@devexpress/dx-react-core';
-import { buildEventHandlers } from '@devexpress/dx-chart-core';
+} from '@synconset/dx-react-core';
+import { buildEventHandlers } from '@synconset/dx-chart-core';
 import { EventTrackerProps, HandlerFn, EventHandlers } from '../types';
 
 const wrapToList = (arg?: HandlerFn) => (arg ? [arg] : []);

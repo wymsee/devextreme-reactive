@@ -5,7 +5,7 @@ import classNames from 'clsx';
 import {
   getRecurrenceOptions, WEEK_DAY_OPTIONS, handleWeekDaysChange, changeRecurrenceOptions,
   getDaysOfWeekArray, getDaysOfWeekDates,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { ensureColor } from '../../utils';
 
 const PREFIX = 'WeeklyRecurrenceSelector';

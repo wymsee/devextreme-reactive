@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import { ViewCell } from './scheduler-core.types';
 import { ValidResource } from './resources.types';
 

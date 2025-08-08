@@ -9,7 +9,7 @@ import {
   DxIntegratedGrouping,
   DxIntegratedPaging,
   DxIntegratedSelection,
-} from '@devexpress/dx-vue-grid';
+} from '@synconset/dx-vue-grid';
 
 import {
   DxGrid,
@@ -23,7 +23,7 @@ import {
   DxGroupingPanel,
   DxColumnChooser,
   DxTableColumnVisibility,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 import {
   generateRows,

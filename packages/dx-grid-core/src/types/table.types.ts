@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import { Column } from './grid-core.types';
 import { IntegratedFiltering } from './filtering.types';
 

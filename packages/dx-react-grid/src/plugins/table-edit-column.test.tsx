@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents, getComputedState, setupConsole } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   tableColumnsWithEditing,
   isHeadingEditCommandsTableCell,
@@ -9,11 +9,11 @@ import {
   isEditCommandsTableCell,
   isAddedTableRow,
   isEditTableRow,
-} from '@devexpress/dx-grid-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+} from '@synconset/dx-grid-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import { TableEditColumn } from './table-edit-column';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableColumnsWithEditing: jest.fn(),
   isHeadingEditCommandsTableCell: jest.fn(),
   isDataEditCommandsTableCell: jest.fn(),
@@ -22,8 +22,8 @@ jest.mock('@devexpress/dx-grid-core', () => ({
   isEditTableRow: jest.fn(),
 }));
 
-jest.mock('@devexpress/dx-core', () => ({
-  ...jest.requireActual('@devexpress/dx-core'),
+jest.mock('@synconset/dx-core', () => ({
+  ...jest.requireActual('@synconset/dx-core'),
   getMessagesFormatter: jest.fn(),
 }));
 

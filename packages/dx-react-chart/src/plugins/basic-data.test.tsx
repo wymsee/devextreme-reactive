@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
 import { BasicData } from './basic-data';
 
-jest.mock('@devexpress/dx-chart-core', () => ({
+jest.mock('@synconset/dx-chart-core', () => ({
   defaultDomains: 'test-domains',
 }));
 

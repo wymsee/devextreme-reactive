@@ -7,14 +7,14 @@ import MenuItem from '@mui/material/MenuItem';
 import {
   DataTypeProvider,
   EditingState,
-} from '@devexpress/dx-react-grid';
+} from '@synconset/dx-react-grid';
 import {
   Grid,
   Table,
   TableHeaderRow,
   TableEditRow,
   TableEditColumn,
-} from '@devexpress/dx-react-grid-material-ui';
+} from '@synconset/dx-react-grid-material-ui';
 
 import {
   generateRows,

@@ -2,18 +2,18 @@ import * as React from 'react';
 import { mount } from 'enzyme';
 import {
   pluginDepsToComponents, getComputedState, testStatePluginField, setupConsole,
-} from '@devexpress/dx-testing';
+} from '@synconset/dx-testing';
 import {
   visibleTableColumns,
   columnChooserItems,
   toggleColumn,
   tableDataColumnsExist,
   getColumnExtensionValueGetter,
-} from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+} from '@synconset/dx-grid-core';
+import { PluginHost } from '@synconset/dx-react-core';
 import { TableColumnVisibility } from './table-column-visibility';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   visibleTableColumns: jest.fn(),
   columnChooserItems: jest.fn(),
   toggleColumn: jest.fn(),

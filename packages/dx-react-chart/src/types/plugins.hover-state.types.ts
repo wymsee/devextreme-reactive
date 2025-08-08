@@ -1,6 +1,6 @@
 import { SeriesRef, NotifyPointerMoveFn, HandlerFnList } from './index';
-import { Getters } from '@devexpress/dx-react-core';
-import { PureComputed } from '@devexpress/dx-core';
+import { Getters } from '@synconset/dx-react-core';
+import { PureComputed } from '@synconset/dx-core';
 
 export interface HoverStateProps {
   /** Specifies a series or point that is initially displayed hovered */

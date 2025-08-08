@@ -1,4 +1,4 @@
-import { Axis } from '@devexpress/dx-react-chart';
+import { Axis } from '@synconset/dx-react-chart';
 import { withClassName } from '../utils';
 
 export const Line = withClassName(

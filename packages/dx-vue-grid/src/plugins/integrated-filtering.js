@@ -1,11 +1,11 @@
-import { DxGetter, DxPlugin } from '@devexpress/dx-vue-core';
+import { DxGetter, DxPlugin } from '@synconset/dx-vue-core';
 import {
   filteredRows,
   getColumnExtension,
   filteredCollapsedRowsGetter,
   unwrappedFilteredRows,
   defaultFilterPredicate,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 
 const pluginDependencies = [
   { name: 'DxFilteringState', optional: true },

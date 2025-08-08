@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { MemoizedFunction, memoize } from '@devexpress/dx-core';
+import { MemoizedFunction, memoize } from '@synconset/dx-core';
 import {
   TableColumn, GetColumnWidthFn, getCollapsedGrids,
   getColumnWidthGetter, TABLE_STUB_TYPE, getViewport, GridViewport, getScrollLeft,
   isColumnsWidthDifferent,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { VirtualTableLayoutState, VirtualTableLayoutProps } from '../../types';
 import { VirtualTableLayoutBlock } from './virtual-table-layout-block';
-import { Sizer } from '@devexpress/dx-react-core';
+import { Sizer } from '@synconset/dx-react-core';
 import { ColumnGroup } from './column-group';
 
 const AUTO_HEIGHT = 'auto';

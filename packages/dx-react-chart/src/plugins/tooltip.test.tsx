@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
-import { getParameters, createReference, processHandleTooltip } from '@devexpress/dx-chart-core';
+import { PluginHost } from '@synconset/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
+import { getParameters, createReference, processHandleTooltip } from '@synconset/dx-chart-core';
 import { Tooltip } from './tooltip';
 
-jest.mock('@devexpress/dx-chart-core', () => ({
+jest.mock('@synconset/dx-chart-core', () => ({
   getParameters: jest.fn().mockReturnValue({ element: 'test-element', text: 'tooltip-text' }),
   processHandleTooltip: jest.fn().mockReturnValue('test-target'),
   createReference: jest.fn().mockReturnValue({ tag: 'test-reference' }),

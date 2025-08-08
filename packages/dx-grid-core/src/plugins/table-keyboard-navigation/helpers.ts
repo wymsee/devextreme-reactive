@@ -1,9 +1,9 @@
-import { ReadonlyObject, PureComputed } from '@devexpress/dx-core';
+import { ReadonlyObject, PureComputed } from '@synconset/dx-core';
 import {
   TABLE_FILTER_TYPE, TABLE_HEADING_TYPE, TABLE_DATA_TYPE, TABLE_BAND_TYPE,
   TABLE_TOTAL_SUMMARY_TYPE, TABLE_STUB_TYPE,
   TABLE_GROUP_TYPE,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import {
     GetNextFocusedElementFn, FocusedElement, TableColumn, TableRow,
     GetElementFn, GetElementPrevNextPartFn, Elements, RowId, GetInnerElementsFn,

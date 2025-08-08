@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
-import { setupConsole } from '@devexpress/dx-testing';
+import { setupConsole } from '@synconset/dx-testing';
 import { StaticTableLayout } from './static-table-layout';
 
 const defaultProps = {

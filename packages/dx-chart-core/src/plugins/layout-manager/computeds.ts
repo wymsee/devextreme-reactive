@@ -1,4 +1,4 @@
-import { Size } from '@devexpress/dx-react-core';
+import { Size } from '@synconset/dx-react-core';
 import {
   ARGUMENT_DOMAIN, VALUE_DOMAIN,
 } from '../../constants';

@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import {
   GRID_GROUP_CHECK,
   GRID_GROUP_LEVEL_KEY,

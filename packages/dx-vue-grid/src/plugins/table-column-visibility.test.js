@@ -5,12 +5,12 @@ import {
   toggleColumn,
   tableDataColumnsExist,
   getColumnExtensionValueGetter,
-} from '@devexpress/dx-grid-core';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
+} from '@synconset/dx-grid-core';
+import { DxPluginHost } from '@synconset/dx-vue-core';
 import { PluginDepsToComponents, getComputedState, executeComputedAction } from './test-utils';
 import { DxTableColumnVisibility } from './table-column-visibility';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   visibleTableColumns: jest.fn(),
   columnChooserItems: jest.fn(),
   toggleColumn: jest.fn(),

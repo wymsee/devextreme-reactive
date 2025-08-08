@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { pluginDepsToComponents } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { pluginDepsToComponents } from '@synconset/dx-testing';
 import { SpaceFillingRects } from './space-filling-rects';
 import {
   TOP, BOTTOM, LEFT, RIGHT,
-} from '@devexpress/dx-chart-core';
+} from '@synconset/dx-chart-core';
 
 const defaultDeps = {
   getter: {

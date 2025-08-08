@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost, Template } from '@devexpress/dx-react-core';
+import { PluginHost, Template } from '@synconset/dx-react-core';
 import {
   isStubTableCell,
   tableRowsWithDataRows,
   checkColumnWidths,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { makeVirtualTable } from './virtual-table';
 import {
   pluginDepsToComponents, getComputedState, executeComputedAction,
-} from '@devexpress/dx-testing';
+} from '@synconset/dx-testing';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableColumnsWithDataRows: jest.fn(),
   tableRowsWithDataRows: jest.fn(),
   getColumnWidthGetter: jest.fn(),

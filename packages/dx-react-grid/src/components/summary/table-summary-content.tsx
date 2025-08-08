@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   defaultFormatlessSummaries, ColumnSummary,
-} from '@devexpress/dx-grid-core';
-import { TemplatePlaceholder } from '@devexpress/dx-react-core';
+} from '@synconset/dx-grid-core';
+import { TemplatePlaceholder } from '@synconset/dx-react-core';
 import { TableSummaryContentProps, SummaryItemProps } from '../../types';
 import { defaultSummaryMessages } from './constants';
 

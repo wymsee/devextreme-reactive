@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
 import { ControllerComponent } from './controller-component';
-import { isReadyToRenderSeries } from '@devexpress/dx-chart-core';
+import { isReadyToRenderSeries } from '@synconset/dx-chart-core';
 
-jest.mock('@devexpress/dx-chart-core', () => ({
+jest.mock('@synconset/dx-chart-core', () => ({
   isReadyToRenderSeries: jest.fn().mockReturnValue('ready_test'),
 }));
 

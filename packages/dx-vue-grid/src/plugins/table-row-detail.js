@@ -3,7 +3,7 @@ import {
   DxTemplate,
   DxPlugin,
   DxTemplateConnector,
-} from '@devexpress/dx-vue-core';
+} from '@synconset/dx-vue-core';
 import {
   tableRowsWithExpandedDetail,
   tableDetailCellColSpanGetter,
@@ -12,7 +12,7 @@ import {
   isDetailToggleTableCell,
   isDetailTableRow,
   isDetailTableCell,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 
 const getCellColSpanComputed = (
   { getTableCellColSpan },

@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost, Template } from '@devexpress/dx-react-core';
-import { pluginDepsToComponents, executeComputedAction } from '@devexpress/dx-testing';
-import { setAppointmentMeta, TOGGLE_APPOINTMENT_TOOLTIP_VISIBILITY } from '@devexpress/dx-scheduler-core';
+import { PluginHost, Template } from '@synconset/dx-react-core';
+import { pluginDepsToComponents, executeComputedAction } from '@synconset/dx-testing';
+import { setAppointmentMeta, TOGGLE_APPOINTMENT_TOOLTIP_VISIBILITY } from '@synconset/dx-scheduler-core';
 import { AppointmentTooltip } from './appointment-tooltip';
 
-jest.mock('@devexpress/dx-scheduler-core', () => ({
-  ...jest.requireActual('@devexpress/dx-scheduler-core'),
+jest.mock('@synconset/dx-scheduler-core', () => ({
+  ...jest.requireActual('@synconset/dx-scheduler-core'),
   setAppointmentMeta: jest.fn(),
 }));
 

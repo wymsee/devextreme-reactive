@@ -1,5 +1,5 @@
-import { DxGetter, DxAction, DxPlugin } from '@devexpress/dx-vue-core';
-import { toggleDetailRowExpanded } from '@devexpress/dx-grid-core';
+import { DxGetter, DxAction, DxPlugin } from '@synconset/dx-vue-core';
+import { toggleDetailRowExpanded } from '@synconset/dx-grid-core';
 
 export const DxRowDetailState = {
   name: 'DxRowDetailState',

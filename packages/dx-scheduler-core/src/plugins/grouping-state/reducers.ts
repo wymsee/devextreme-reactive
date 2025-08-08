@@ -1,4 +1,4 @@
-import { PureReducer, slice } from '@devexpress/dx-core';
+import { PureReducer, slice } from '@synconset/dx-core';
 import {
   ResourceGroupingState, ToggleGroupPayload,
 } from '../../types';

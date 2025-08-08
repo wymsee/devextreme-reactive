@@ -1,4 +1,4 @@
-import { ScatterSeries, withPatchedProps } from '@devexpress/dx-react-chart';
+import { ScatterSeries, withPatchedProps } from '@synconset/dx-react-chart';
 import classNames from 'clsx';
 
 const setClassName = ({ classes, ...restProps }) => {

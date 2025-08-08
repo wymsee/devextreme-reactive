@@ -1,5 +1,5 @@
-import { DxGetter, DxPlugin } from '@devexpress/dx-vue-core';
-import { sortedRows, getColumnExtension } from '@devexpress/dx-grid-core';
+import { DxGetter, DxPlugin } from '@synconset/dx-vue-core';
+import { sortedRows, getColumnExtension } from '@synconset/dx-grid-core';
 
 const pluginDependencies = [
   { name: 'DxSortingState' },

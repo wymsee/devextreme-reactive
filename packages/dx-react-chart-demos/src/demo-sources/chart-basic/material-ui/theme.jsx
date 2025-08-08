@@ -3,7 +3,7 @@ import Paper from '@mui/material/Paper';
 import {
   Chart,
   PieSeries,
-} from '@devexpress/dx-react-chart-material-ui';
+} from '@synconset/dx-react-chart-material-ui';
 import Typography from '@mui/material/Typography';
 import NativeSelect from '@mui/material/NativeSelect';
 import FormControl from '@mui/material/FormControl';
@@ -20,7 +20,7 @@ import {
   schemeSet3,
 } from 'd3-scale-chromatic';
 
-import { Palette } from '@devexpress/dx-react-chart';
+import { Palette } from '@synconset/dx-react-chart';
 
 const schemeCollection = [
   schemeCategory10,

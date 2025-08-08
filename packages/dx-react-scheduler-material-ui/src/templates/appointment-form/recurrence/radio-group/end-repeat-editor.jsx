@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {
   NUMBER_EDITOR, getRecurrenceOptions, changeRecurrenceOptions,
   checkIsNaturalNumber, isDateValid,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 
 const PREFIX = 'EndRepeatEditor';
 

@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { TableFilterRow as TableFilterRowBase } from '@devexpress/dx-react-grid';
+import { withComponents } from '@synconset/dx-react-core';
+import { TableFilterRow as TableFilterRowBase } from '@synconset/dx-react-grid';
 import { TableFilterCell as Cell } from '../templates/table-filter-cell';
 import { TableRow as Row } from '../templates/table-row';
 import { Editor } from '../templates/filter-row/editor';

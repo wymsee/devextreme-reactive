@@ -1,4 +1,4 @@
-import { firstRowOnPage, lastRowOnPage } from '@devexpress/dx-grid-core';
+import { firstRowOnPage, lastRowOnPage } from '@synconset/dx-grid-core';
 import { PageButtons } from './page-buttons';
 
 export const Pagination = {

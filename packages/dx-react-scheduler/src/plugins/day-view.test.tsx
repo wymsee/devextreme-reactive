@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   computed,
   viewCellsData,
   timeCellsData,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { DayView } from './day-view';
 import { VerticalView } from './vertical-view';
 
-jest.mock('@devexpress/dx-scheduler-core', () => ({
-  ...jest.requireActual('@devexpress/dx-scheduler-core'),
+jest.mock('@synconset/dx-scheduler-core', () => ({
+  ...jest.requireActual('@synconset/dx-scheduler-core'),
   computed: jest.fn(),
   viewCellsData: jest.fn(),
   startViewDate: jest.fn(),

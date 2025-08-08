@@ -6,8 +6,8 @@ import {
   AreaSeries,
   Title,
   Legend,
-} from '@devexpress/dx-react-chart-bootstrap4';
-import { ArgumentScale, Animation } from '@devexpress/dx-react-chart';
+} from '@synconset/dx-react-chart-bootstrap4';
+import { ArgumentScale, Animation } from '@synconset/dx-react-chart';
 import {
   curveCatmullRom,
   area,

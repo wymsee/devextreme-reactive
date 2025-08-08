@@ -8,11 +8,11 @@ import {
   getAnimations,
   filterActiveAnimations,
   evalAnimations,
-} from '@devexpress/dx-grid-core';
-import { setupConsole } from '@devexpress/dx-testing';
+} from '@synconset/dx-grid-core';
+import { setupConsole } from '@synconset/dx-testing';
 import { TableLayout } from './table-layout';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   TABLE_FLEX_TYPE: 'flex',
   getAnimations: jest.fn(),
   filterActiveAnimations: jest.fn(),

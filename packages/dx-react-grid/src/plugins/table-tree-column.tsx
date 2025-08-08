@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {
   Template, Getter, Plugin, TemplateConnector, TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
-import { isTreeTableCell } from '@devexpress/dx-grid-core';
+} from '@synconset/dx-react-core';
+import { isTreeTableCell } from '@synconset/dx-grid-core';
 import { TableTreeColumnProps, TableCellProps } from '../types';
 
 class TableTreeColumnBase extends React.PureComponent<TableTreeColumnProps> {

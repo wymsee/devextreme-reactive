@@ -6,14 +6,14 @@ import {
   createStateHelper,
   StateHelper,
   ActionFn,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   changeCurrentDate,
   setCurrentViewName,
   ChangeCurrentDatePayload,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { ViewStateProps, ViewStateState } from '../types';
-import { memoize } from '@devexpress/dx-core';
+import { memoize } from '@synconset/dx-core';
 
 class ViewStateBase extends React.PureComponent<ViewStateProps, ViewStateState> {
   changeCurrentDate: ActionFn<ChangeCurrentDatePayload>;

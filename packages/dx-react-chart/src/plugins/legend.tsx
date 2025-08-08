@@ -7,8 +7,8 @@ import {
   withComponents,
   Getters,
   PluginComponents,
-} from '@devexpress/dx-react-core';
-import { getLegendItems } from '@devexpress/dx-chart-core';
+} from '@synconset/dx-react-core';
+import { getLegendItems } from '@synconset/dx-chart-core';
 import { Marker } from '../templates/legend/marker';
 import { LegendProps } from '../types';
 

@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import {
   AppointmentMoment, DayBoundaryPredicateFn,
   ReduceAppointmentByDayBoundsFn, NormalizeAppointmentDurationFn, ViewCell, SchedulerDateTime,

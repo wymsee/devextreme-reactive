@@ -4,7 +4,7 @@ import {
   DxPlugin,
   DxTemplatePlaceholder,
   DxTemplateConnector,
-} from '@devexpress/dx-vue-core';
+} from '@synconset/dx-vue-core';
 import {
   tableColumnsWithGrouping,
   tableRowsWithGrouping,
@@ -12,7 +12,7 @@ import {
   isGroupIndentTableCell,
   isGroupTableCell,
   isGroupTableRow,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 
 const pluginDependencies = [
   { name: 'DxGroupingState' },

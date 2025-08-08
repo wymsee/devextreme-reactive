@@ -5,9 +5,9 @@ import {
   ValueAxis,
   BarSeries,
   Legend,
-} from '@devexpress/dx-react-chart-bootstrap4';
+} from '@synconset/dx-react-chart-bootstrap4';
 
-import { Stack } from '@devexpress/dx-react-chart';
+import { Stack } from '@synconset/dx-react-chart';
 
 import { ageStructure } from '../../../demo-data/data-vizualization';
 

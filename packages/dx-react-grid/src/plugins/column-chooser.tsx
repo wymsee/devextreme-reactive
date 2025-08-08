@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   Template, TemplatePlaceholder, Plugin, TemplateConnector,
-} from '@devexpress/dx-react-core';
-import { columnChooserItems } from '@devexpress/dx-grid-core';
+} from '@synconset/dx-react-core';
+import { columnChooserItems } from '@synconset/dx-grid-core';
 import { ColumnChooserState, ColumnChooserProps } from '../types';
 
 const pluginDependencies = [

@@ -1,11 +1,11 @@
-import { DxFilteringState } from '@devexpress/dx-vue-grid';
+import { DxFilteringState } from '@synconset/dx-vue-grid';
 import {
   DxGrid,
   DxTable,
   DxVirtualTable,
   DxTableHeaderRow,
   DxTableFilterRow,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 import { Loading as DxLoading } from '../../../theme-sources/none/components/loading';
 

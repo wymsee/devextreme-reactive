@@ -5,12 +5,12 @@ import {
   TemplatePlaceholder,
   TemplateConnector,
   PluginComponents,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   monthCellsData,
   viewBoundText,
-} from '@devexpress/dx-scheduler-core';
-import { memoize } from '@devexpress/dx-core';
+} from '@synconset/dx-scheduler-core';
+import { memoize } from '@synconset/dx-core';
 
 import { DateNavigatorProps, DateNavigatorState } from '../types';
 

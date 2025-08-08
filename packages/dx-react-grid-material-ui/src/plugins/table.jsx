@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { Table as TableBase } from '@devexpress/dx-react-grid';
+import { withComponents } from '@synconset/dx-react-core';
+import { Table as TableBase } from '@synconset/dx-react-grid';
 import { Head, Body, Footer } from '../templates/table-parts';
 import { Table as TableComponent } from '../templates/table';
 import { TableRow as Row } from '../templates/table-row';

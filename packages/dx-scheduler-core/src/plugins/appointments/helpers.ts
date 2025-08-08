@@ -1,4 +1,4 @@
-import { PureComputed, CustomFunction } from '@devexpress/dx-core';
+import { PureComputed, CustomFunction } from '@synconset/dx-core';
 import {
   ViewCell, CellElementsMeta, GroupOrientation, AppointmentMoment,
   AppointmentUnwrappedGroup, ViewMetaData, ElementRect, AppointmentGroup,

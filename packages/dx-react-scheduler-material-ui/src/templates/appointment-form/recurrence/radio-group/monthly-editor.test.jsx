@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createShallow, createMount } from '@devexpress/dx-testing';
+import { createShallow, createMount } from '@synconset/dx-testing';
 import {
   handleStartDateChange,
   handleToDayOfWeekChange,
@@ -7,12 +7,12 @@ import {
   changeRecurrenceOptions,
   getDaysOfWeek,
   getWeekNumberLabels,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { FormControlLabel } from '@mui/material';
 import { MonthlyEditor, classes } from './monthly-editor';
 
-jest.mock('@devexpress/dx-scheduler-core', () => ({
-  ...jest.requireActual('@devexpress/dx-scheduler-core'),
+jest.mock('@synconset/dx-scheduler-core', () => ({
+  ...jest.requireActual('@synconset/dx-scheduler-core'),
   handleStartDateChange: jest.fn(),
   handleToDayOfWeekChange: jest.fn(),
   getRecurrenceOptions: jest.fn(),

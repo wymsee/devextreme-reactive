@@ -7,9 +7,9 @@ import {
   AreaSeries,
   Title,
   Legend,
-} from '@devexpress/dx-react-chart-material-ui';
+} from '@synconset/dx-react-chart-material-ui';
 import { styled } from '@mui/material/styles';
-import { ArgumentScale, Animation } from '@devexpress/dx-react-chart';
+import { ArgumentScale, Animation } from '@synconset/dx-react-chart';
 import {
   curveCatmullRom,
   area,

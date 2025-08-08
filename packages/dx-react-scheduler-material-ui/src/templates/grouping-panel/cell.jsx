@@ -2,7 +2,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'clsx';
 import { styled, TableCell } from '@mui/material';
-import { HORIZONTAL_GROUP_ORIENTATION, VERTICAL_GROUP_ORIENTATION } from '@devexpress/dx-scheduler-core';
+import { HORIZONTAL_GROUP_ORIENTATION, VERTICAL_GROUP_ORIENTATION } from '@synconset/dx-scheduler-core';
 import { getBrightBorder, getBorder } from '../utils';
 import { GROUPING_PANEL_VERTICAL_CELL_WIDTH, DEFAULT_SPACING } from '../constants';
 

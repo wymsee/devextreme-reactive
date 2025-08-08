@@ -1,4 +1,4 @@
-import { DxTable as DxTableBase } from '@devexpress/dx-vue-grid';
+import { DxTable as DxTableBase } from '@synconset/dx-vue-grid';
 
 import { TableLayout } from '../templates/table-layout';
 import { TableContainer } from '../templates/table-container';

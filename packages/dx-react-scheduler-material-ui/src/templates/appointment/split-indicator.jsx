@@ -5,7 +5,7 @@ import classNames from 'clsx';
 import {
   VERTICAL_TYPE, HORIZONTAL_TYPE,
   POSITION_START, POSITION_END,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 
 const PREFIX = 'AppointmentsContainer';
 

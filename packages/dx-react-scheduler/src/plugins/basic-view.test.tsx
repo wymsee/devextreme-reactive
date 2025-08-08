@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   computed,
   viewCellsData,
@@ -9,11 +9,11 @@ import {
   endViewDate,
   availableViews,
   getAppointmentStyle,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { BasicView } from './basic-view';
 
 /* tslint:disable max-line-length */
-jest.mock('@devexpress/dx-scheduler-core', () => ({
+jest.mock('@synconset/dx-scheduler-core', () => ({
   computed: jest.fn(),
   viewCellsData: jest.fn(),
   startViewDate: jest.fn(),

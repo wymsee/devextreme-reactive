@@ -2,7 +2,7 @@ import {
   DxTemplate,
   DxPlugin,
   DxTemplatePlaceholder,
-} from '@devexpress/dx-vue-core';
+} from '@synconset/dx-vue-core';
 
 export const DxToolbar = {
   name: 'DxToolbar',

@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { createShallow } from '@devexpress/dx-testing';
-import { getRecurrenceOptions } from '@devexpress/dx-scheduler-core';
+import { createShallow } from '@synconset/dx-testing';
+import { getRecurrenceOptions } from '@synconset/dx-scheduler-core';
 import { Layout, classes } from './layout';
 import { Daily } from './layouts/daily';
 import { Weekly } from './layouts/weekly';
 import { Monthly } from './layouts/monthly';
 import { Yearly } from './layouts/yearly';
 
-jest.mock('@devexpress/dx-scheduler-core', () => ({
-  ...jest.requireActual('@devexpress/dx-scheduler-core'),
+jest.mock('@synconset/dx-scheduler-core', () => ({
+  ...jest.requireActual('@synconset/dx-scheduler-core'),
   getRecurrenceOptions: jest.fn(),
 }));
 jest.mock('./layouts/daily', () => ({

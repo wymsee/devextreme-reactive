@@ -3,10 +3,10 @@ import {
   Getter,
   Plugin,
   Getters,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   orderedColumns,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { OrderedTableColumnsProps } from '../../types';
 
 /** @internal */

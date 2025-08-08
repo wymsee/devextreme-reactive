@@ -6,8 +6,8 @@ import {
   AreaSeries,
   Title,
   Legend,
-} from '@devexpress/dx-react-chart-bootstrap4';
-import { Stack, Animation } from '@devexpress/dx-react-chart';
+} from '@synconset/dx-react-chart-bootstrap4';
+import { Stack, Animation } from '@synconset/dx-react-chart';
 import { stackOffsetExpand } from 'd3-shape';
 
 import { carbonEmmision as data } from '../../../demo-data/data-vizualization';

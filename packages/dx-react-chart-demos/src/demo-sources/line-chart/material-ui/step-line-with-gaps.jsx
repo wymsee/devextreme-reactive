@@ -8,8 +8,8 @@ import {
   Title,
   Legend,
   ScatterSeries,
-} from '@devexpress/dx-react-chart-material-ui';
-import { Animation } from '@devexpress/dx-react-chart';
+} from '@synconset/dx-react-chart-material-ui';
+import { Animation } from '@synconset/dx-react-chart';
 import {
   line,
   curveStep,

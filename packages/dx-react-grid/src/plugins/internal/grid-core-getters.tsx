@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {
   Getter, Plugin,
-} from '@devexpress/dx-react-core';
-import { rowIdGetter, cellValueGetter } from '@devexpress/dx-grid-core';
+} from '@synconset/dx-react-core';
+import { rowIdGetter, cellValueGetter } from '@synconset/dx-grid-core';
 import { GridCoreGettersProps } from '../../types';
 
 export const GridCoreGetters: React.FunctionComponent<GridCoreGettersProps> = React.memo(({

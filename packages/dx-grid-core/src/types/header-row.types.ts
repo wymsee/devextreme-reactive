@@ -1,5 +1,5 @@
 import { TableColumn, TableRow } from './table.types';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 
 /** @internal */
 export type HeaderColumnChain = {

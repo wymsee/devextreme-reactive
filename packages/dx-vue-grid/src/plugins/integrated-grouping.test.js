@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
+import { setupConsole } from '@synconset/dx-testing';
 import {
   groupRowChecker,
   groupRowLevelKeyGetter,
@@ -7,12 +7,12 @@ import {
   groupedRows,
   expandedGroupRows,
   getColumnExtension,
-} from '@devexpress/dx-grid-core';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
+} from '@synconset/dx-grid-core';
+import { DxPluginHost } from '@synconset/dx-vue-core';
 import { DxIntegratedGrouping } from './integrated-grouping';
 import { PluginDepsToComponents, getComputedState } from './test-utils';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   groupRowChecker: jest.fn(),
   groupRowLevelKeyGetter: jest.fn(),
   groupCollapsedRowsGetter: jest.fn(),

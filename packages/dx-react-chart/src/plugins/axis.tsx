@@ -8,13 +8,13 @@ import {
   PluginComponents,
   onSizeChangeFn,
   Getter,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   ARGUMENT_DOMAIN, getValueDomainName,
   getRotatedPosition, isValidPosition,
   LEFT, BOTTOM, getTickCoordinates, gridCoordinatesGetter, tickCoordinatesGetter,
   Tick, Grid,
-} from '@devexpress/dx-chart-core';
+} from '@synconset/dx-chart-core';
 import { RawAxisProps } from '../types';
 import { Root } from '../templates/axis/root';
 import { Label } from '../templates/axis/label';

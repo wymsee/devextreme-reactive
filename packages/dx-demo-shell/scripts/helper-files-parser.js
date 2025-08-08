@@ -18,36 +18,36 @@ const retrieveImportFiles = (imports, regex) => imports
 const knownDeepImports = ['@mui/material', '@mui/icons-material'];
 const dependencies = {
   '"@mui/material"': ['"@mui/icons-material"'],
-  '"@devexpress/dx-react-chart-material-ui"': [
-    '"@devexpress/dx-react-chart"',
+  '"@synconset/dx-react-chart-material-ui"': [
+    '"@synconset/dx-react-chart"',
     '"@mui/icons-material"',
     '"@emotion/react"',
     '"@emotion/styled"',
   ],
-  '"@devexpress/dx-react-chart-bootstrap4"': ['"@devexpress/dx-react-chart"'],
-  '"@devexpress/dx-react-chart"': ['"@devexpress/dx-react-core"'],
-  '"@devexpress/dx-react-grid-bootstrap3"': [
-    '"@devexpress/dx-react-grid"',
+  '"@synconset/dx-react-chart-bootstrap4"': ['"@synconset/dx-react-chart"'],
+  '"@synconset/dx-react-chart"': ['"@synconset/dx-react-core"'],
+  '"@synconset/dx-react-grid-bootstrap3"': [
+    '"@synconset/dx-react-grid"',
     'react-bootstrap',
   ],
-  '"@devexpress/dx-react-grid-bootstrap4"': ['"@devexpress/dx-react-grid"'],
-  '"@devexpress/dx-react-grid-material-ui"': [
-    '"@devexpress/dx-react-grid"',
+  '"@synconset/dx-react-grid-bootstrap4"': ['"@synconset/dx-react-grid"'],
+  '"@synconset/dx-react-grid-material-ui"': [
+    '"@synconset/dx-react-grid"',
     '"@mui/icons-material"',
     '"@emotion/react"',
     '"@emotion/styled"',
     '"@mui/lab"',
   ],
-  '"@devexpress/dx-react-grid"': ['"@devexpress/dx-react-core"'],
-  '"@devexpress/dx-react-scheduler-material-ui"': [
-    '"@devexpress/dx-react-scheduler"',
+  '"@synconset/dx-react-grid"': ['"@synconset/dx-react-core"'],
+  '"@synconset/dx-react-scheduler-material-ui"': [
+    '"@synconset/dx-react-scheduler"',
     '"@mui/icons-material"',
     '"@emotion/react"',
     '"@emotion/styled"',
     '"@mui/x-date-pickers"',
     '"@mui/lab"',
   ],
-  '"@devexpress/dx-react-scheduler"': ['"@devexpress/dx-react-core"'],
+  '"@synconset/dx-react-scheduler"': ['"@synconset/dx-react-core"'],
 };
 
 const getDepsRecursive = (name, deps = []) => {

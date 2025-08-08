@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { TOP_POSITION } from '@devexpress/dx-grid-core';
-import { pluginDepsToComponents } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { TOP_POSITION } from '@synconset/dx-grid-core';
+import { pluginDepsToComponents } from '@synconset/dx-testing';
 import { SearchPanel } from './search-panel';
 
 const Input = () => null;

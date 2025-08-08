@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { initialize } from '@devexpress/dx-demo-shell';
-import '@devexpress/dx-demo-shell/dist/index.css';
+import { initialize } from '@synconset/dx-demo-shell';
+import '@synconset/dx-demo-shell/dist/index.css';
 import { demos, migrationSamples } from './demo-registry.js';
 import { themes } from './theme-registry.js';
 import { themeComponents } from './theme-components-registry.js';

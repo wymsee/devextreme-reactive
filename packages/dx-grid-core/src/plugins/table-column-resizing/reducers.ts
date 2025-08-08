@@ -1,4 +1,4 @@
-import { slice } from '@devexpress/dx-core';
+import { slice } from '@synconset/dx-core';
 import { ColumnWidthReducer } from '../../types';
 import { getColumnSizes } from './helpers';
 

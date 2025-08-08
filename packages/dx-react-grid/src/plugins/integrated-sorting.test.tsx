@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { sortedRows } from '@devexpress/dx-grid-core';
-import { pluginDepsToComponents } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { sortedRows } from '@synconset/dx-grid-core';
+import { pluginDepsToComponents } from '@synconset/dx-testing';
 import { IntegratedSorting } from './integrated-sorting';
 
 const defaultDeps = {
@@ -17,7 +17,7 @@ const defaultDeps = {
   plugins: ['SortingState'],
 };
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   sortedRows: jest.fn(),
 }));
 

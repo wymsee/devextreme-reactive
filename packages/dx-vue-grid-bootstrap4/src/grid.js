@@ -1,4 +1,4 @@
-import { DxGrid as DxGridBase } from '@devexpress/dx-vue-grid';
+import { DxGrid as DxGridBase } from '@synconset/dx-vue-grid';
 
 import { GridRoot } from './templates/grid-root';
 

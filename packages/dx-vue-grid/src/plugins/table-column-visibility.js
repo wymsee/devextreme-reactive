@@ -5,14 +5,14 @@ import {
   DxTemplate,
   DxTemplateConnector,
   DxTemplatePlaceholder,
-} from '@devexpress/dx-vue-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+} from '@synconset/dx-vue-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   toggleColumn,
   visibleTableColumns,
   tableDataColumnsExist,
   getColumnExtensionValueGetter,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 
 const pluginDependencies = [
   { name: 'DxTable' },

@@ -1,4 +1,4 @@
-import { Getters } from '@devexpress/dx-react-core';
+import { Getters } from '@synconset/dx-react-core';
 import { LegendItemList } from './index';
 
 // tslint:disable-next-line: no-namespace

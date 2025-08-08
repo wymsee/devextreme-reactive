@@ -1,11 +1,11 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
-import { tableRowsWithBands } from '@devexpress/dx-grid-core';
+import { setupConsole } from '@synconset/dx-testing';
+import { DxPluginHost } from '@synconset/dx-vue-core';
+import { tableRowsWithBands } from '@synconset/dx-grid-core';
 import { DxTableBandHeader } from './table-band-header';
 import { PluginDepsToComponents, getComputedState } from './test-utils';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableRowsWithBands: jest.fn(),
   isHeadingTableCell: jest.fn(),
   isBandedTableRow: jest.fn(),

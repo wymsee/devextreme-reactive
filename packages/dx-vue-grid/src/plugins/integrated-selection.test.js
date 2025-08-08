@@ -1,16 +1,16 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
+import { setupConsole } from '@synconset/dx-testing';
+import { DxPluginHost } from '@synconset/dx-vue-core';
 import {
   rowsWithAvailableToSelect,
   someSelected,
   allSelected,
   unwrapSelectedRows,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { PluginDepsToComponents, getComputedState, executeComputedAction } from './test-utils';
 import { DxIntegratedSelection } from './integrated-selection';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   someSelected: jest.fn(),
   allSelected: jest.fn(),
   rowsWithAvailableToSelect: jest.fn(),

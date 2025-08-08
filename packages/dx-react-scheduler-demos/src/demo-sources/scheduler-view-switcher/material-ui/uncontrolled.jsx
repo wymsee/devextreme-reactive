@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Paper from '@mui/material/Paper';
-import { ViewState } from '@devexpress/dx-react-scheduler';
+import { ViewState } from '@synconset/dx-react-scheduler';
 import {
   Scheduler,
   DayView,
@@ -8,7 +8,7 @@ import {
   Appointments,
   Toolbar,
   ViewSwitcher,
-} from '@devexpress/dx-react-scheduler-material-ui';
+} from '@synconset/dx-react-scheduler-material-ui';
 
 import { appointments } from '../../../demo-data/month-appointments';
 

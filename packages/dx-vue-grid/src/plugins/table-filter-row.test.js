@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
+import { setupConsole } from '@synconset/dx-testing';
+import { DxPluginHost } from '@synconset/dx-vue-core';
 import {
   tableHeaderRowsWithFilter,
   isFilterTableCell,
@@ -8,11 +8,11 @@ import {
   getColumnFilterOperations,
   isFilterValueEmpty,
   getColumnFilterConfig,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { DxTableFilterRow } from './table-filter-row';
 import { PluginDepsToComponents, getComputedState } from './test-utils';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableHeaderRowsWithFilter: jest.fn(),
   isFilterTableCell: jest.fn(),
   isFilterTableRow: jest.fn(),

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { ITargetComponent } from '@devexpress/dx-react-core';
-import { CommonComponentProps } from '@devexpress/dx-chart-core';
+import { ITargetComponent } from '@synconset/dx-react-core';
+import { CommonComponentProps } from '@synconset/dx-chart-core';
 import { RawAxisProps, ScaleProps } from '../types';
 
 /** @internal */

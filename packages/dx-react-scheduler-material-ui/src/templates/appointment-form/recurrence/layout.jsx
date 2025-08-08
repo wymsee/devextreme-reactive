@@ -10,7 +10,7 @@ import {
   getFrequencyString,
   getAvailableRecurrenceOptions,
   handleChangeFrequency,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import classNames from 'clsx';
 import { Daily as DailyLayout } from './layouts/daily';
 import { Weekly as WeeklyLayout } from './layouts/weekly';

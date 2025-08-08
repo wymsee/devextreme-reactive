@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { Getter, Action, Plugin, Getters, Actions } from '@devexpress/dx-react-core';
+import { Getter, Action, Plugin, Getters, Actions } from '@synconset/dx-react-core';
 import {
   rowsWithAvailableToSelect,
   someSelected,
   allSelected,
   unwrapSelectedRows,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { IntegratedSelectionProps } from '../types';
 
 const rowsWithAvailableToSelectComputed = (

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
 import {
   getGroupsFromResources,
   expandViewCellsDataWithGroups,
@@ -12,11 +12,11 @@ import {
   updateAllDayCellElementsMeta,
   updateTimeTableCellElementsMeta,
   updateTimeCellsData,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { IntegratedGrouping } from './integrated-grouping';
 
-jest.mock('@devexpress/dx-scheduler-core', () => ({
-  ...jest.requireActual('@devexpress/dx-scheduler-core'),
+jest.mock('@synconset/dx-scheduler-core', () => ({
+  ...jest.requireActual('@synconset/dx-scheduler-core'),
   getGroupsFromResources: jest.fn(),
   expandViewCellsDataWithGroups: jest.fn(),
   sortFilteredResources: jest.fn(),

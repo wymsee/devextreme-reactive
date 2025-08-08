@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, setupConsole } from '@devexpress/dx-testing';
-import { pageCount } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents, setupConsole } from '@synconset/dx-testing';
+import { pageCount } from '@synconset/dx-grid-core';
+import { PluginHost } from '@synconset/dx-react-core';
 import { PagingPanel } from './paging-panel';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   pageCount: jest.fn(),
 }));
 

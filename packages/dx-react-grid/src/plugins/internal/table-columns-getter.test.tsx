@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   tableColumnsWithDataRows,
   checkTableColumnExtensions,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { TableColumnsWithDataRowsGetter } from './table-columns-getter';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableColumnsWithDataRows: jest.fn(),
   checkTableColumnExtensions: jest.fn(),
 }));

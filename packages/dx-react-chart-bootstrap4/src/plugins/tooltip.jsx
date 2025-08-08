@@ -1,5 +1,5 @@
-import { Tooltip as TooltipBase } from '@devexpress/dx-react-chart';
-import { withComponents } from '@devexpress/dx-react-core';
+import { Tooltip as TooltipBase } from '@synconset/dx-react-chart';
+import { withComponents } from '@synconset/dx-react-core';
 import { Overlay } from '../templates/tooltip/overlay';
 import { Content } from '../templates/tooltip/content';
 import { Arrow } from '../templates/tooltip/arrow';

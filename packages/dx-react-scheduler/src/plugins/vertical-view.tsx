@@ -5,16 +5,16 @@ import {
   TemplateConnector,
   TemplatePlaceholder,
   Getter,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   calculateWeekDateIntervals,
   getTimeTableHeight,
   timeCellsData as timeCellsDataCore,
   computed,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { BasicView } from './basic-view';
 import { CommonVerticalViewProps } from '../types';
-import { memoize } from '@devexpress/dx-core';
+import { memoize } from '@synconset/dx-core';
 
 const calculateAppointmentsIntervalsBaseComputed = cellDuration => ({
   appointments, startViewDate, endViewDate, excludedDays,

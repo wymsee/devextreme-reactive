@@ -6,13 +6,13 @@ import {
   Legend,
   BarSeries,
   Title,
-} from '@devexpress/dx-react-chart-bootstrap4';
+} from '@synconset/dx-react-chart-bootstrap4';
 import { Popper } from 'react-popper';
 import domtoimage from 'dom-to-image';
-import { Plugin, Template, TemplatePlaceholder } from '@devexpress/dx-react-core';
+import { Plugin, Template, TemplatePlaceholder } from '@synconset/dx-react-core';
 import JsPDF from 'jspdf';
-import { scaleBand } from '@devexpress/dx-chart-core';
-import { ArgumentScale, Stack, Animation } from '@devexpress/dx-react-chart';
+import { scaleBand } from '@synconset/dx-chart-core';
+import { ArgumentScale, Stack, Animation } from '@synconset/dx-react-chart';
 
 import { gaming as data } from '../../../demo-data/data-vizualization';
 

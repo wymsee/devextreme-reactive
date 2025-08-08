@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { AppointmentForm as AppointmentFormBase } from '@devexpress/dx-react-scheduler';
+import { withComponents } from '@synconset/dx-react-core';
+import { AppointmentForm as AppointmentFormBase } from '@synconset/dx-react-scheduler';
 import { Layout } from '../templates/appointment-form/layout';
 import { TextEditor } from '../templates/appointment-form/common/text-editor';
 import { Layout as BasicLayout } from '../templates/appointment-form/basic/layout';

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { pluginDepsToComponents, getComputedState, setupConsole } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   tableRowsWithSummaries,
   tableRowsWithTotalSummaries,
@@ -13,16 +13,16 @@ import {
   isGroupSummaryTableRow,
   isTreeSummaryTableRow,
   getColumnSummaries,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { TableSummaryRow } from './table-summary-row';
 
-jest.mock('@devexpress/dx-core', () => ({
-  ...jest.requireActual('@devexpress/dx-core'),
+jest.mock('@synconset/dx-core', () => ({
+  ...jest.requireActual('@synconset/dx-core'),
   getMessagesFormatter: jest.fn(),
 }));
 
-jest.mock('@devexpress/dx-grid-core', () => ({
-  ...jest.requireActual('@devexpress/dx-grid-core'),
+jest.mock('@synconset/dx-grid-core', () => ({
+  ...jest.requireActual('@synconset/dx-grid-core'),
   tableRowsWithSummaries: jest.fn(),
   tableRowsWithTotalSummaries: jest.fn(),
   isTotalSummaryTableCell: jest.fn(),

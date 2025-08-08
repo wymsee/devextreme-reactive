@@ -2,7 +2,7 @@ import {
   DxGrid,
   DxVirtualTable,
   DxTableHeaderRow,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 export default {
   data() {

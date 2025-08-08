@@ -1,10 +1,10 @@
 import { mount } from '@vue/test-utils';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
-import { changeSearchValue, searchFilterExpression } from '@devexpress/dx-grid-core';
+import { DxPluginHost } from '@synconset/dx-vue-core';
+import { changeSearchValue, searchFilterExpression } from '@synconset/dx-grid-core';
 import { PluginDepsToComponents, getComputedState, executeComputedAction } from './test-utils';
 import { DxSearchState } from './search-state';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   changeSearchValue: jest.fn(),
   searchFilterExpression: jest.fn().mockReturnValue('filters'),
 }));

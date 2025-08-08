@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import { TABLE_DETAIL_TYPE } from './constants';
 import { TABLE_DATA_TYPE } from '../table/constants';
 import { TableRow, TableColumn, CellColSpanGetter } from '../../types';

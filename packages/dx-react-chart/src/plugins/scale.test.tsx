@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { addDomain, getValueDomainName } from '@devexpress/dx-chart-core';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { addDomain, getValueDomainName } from '@synconset/dx-chart-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
 import { Scale, ArgumentScale, ValueScale } from './scale';
 
-jest.mock('@devexpress/dx-chart-core', () => ({
+jest.mock('@synconset/dx-chart-core', () => ({
   ARGUMENT_DOMAIN: 'test_argument',
   getValueDomainName: jest.fn().mockReturnValue('test_value'),
   addDomain: jest.fn().mockReturnValue('added-domains'),

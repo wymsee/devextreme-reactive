@@ -1,16 +1,16 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
+import { pluginDepsToComponents, getComputedState, setupConsole } from '@synconset/dx-testing';
 import {
   defaultSummaryCalculator,
   totalSummaryValues,
   groupSummaryValues,
   treeSummaryValues,
-} from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+} from '@synconset/dx-grid-core';
+import { PluginHost } from '@synconset/dx-react-core';
 import { IntegratedSummary } from './integrated-summary';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   defaultSummaryCalculator: jest.fn(),
   totalSummaryValues: jest.fn(),
   groupSummaryValues: jest.fn(),

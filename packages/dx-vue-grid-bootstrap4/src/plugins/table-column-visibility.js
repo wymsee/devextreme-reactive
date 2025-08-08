@@ -1,4 +1,4 @@
-import { DxTableColumnVisibility as DxTableColumnVisibilityBase } from '@devexpress/dx-vue-grid';
+import { DxTableColumnVisibility as DxTableColumnVisibilityBase } from '@synconset/dx-vue-grid';
 import { EmptyMessage } from '../templates/empty-message';
 
 const defaultMessages = {

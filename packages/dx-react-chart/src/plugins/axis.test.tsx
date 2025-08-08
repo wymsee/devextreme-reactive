@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { getTickCoordinates } from '@devexpress/dx-chart-core';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { getTickCoordinates } from '@synconset/dx-chart-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
 import { Axis } from './axis';
 
-jest.mock('@devexpress/dx-chart-core', () => ({
+jest.mock('@synconset/dx-chart-core', () => ({
   getRotatedPosition: jest.fn(pos => `${pos}-rotated`),
   isValidPosition: jest.fn(pos => !pos.endsWith('-rotated')),
   getTickCoordinates: jest.fn(),

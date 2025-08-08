@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   Getter, Template, Plugin, TemplatePlaceholder, TemplateConnector, Getters,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   tableRowsWithGrouping,
   tableGroupCellColSpanGetter,
@@ -19,7 +19,7 @@ import {
   isGroupIndentStubTableCell,
   GroupSummaryItem,
   TABLE_FLEX_TYPE,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { TableColumnsWithGrouping } from './internal';
 import {
   TableGroupRowProps, TableCellProps, TableRowProps,

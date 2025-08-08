@@ -1,4 +1,4 @@
-import { shallowEqual } from '@devexpress/dx-core';
+import { shallowEqual } from '@synconset/dx-core';
 
 /** @internal */
 export const getAvailableGetters = (

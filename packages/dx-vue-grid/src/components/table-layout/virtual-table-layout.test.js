@@ -1,17 +1,17 @@
 import { shallow, mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
-import { getCollapsedGrid } from '@devexpress/dx-grid-core';
+import { setupConsole } from '@synconset/dx-testing';
+import { getCollapsedGrid } from '@synconset/dx-grid-core';
 import { VirtualTableLayout } from './virtual-table-layout';
 
-jest.mock('@devexpress/dx-grid-core', () => {
-  const actual = require.requireActual('@devexpress/dx-grid-core');
+jest.mock('@synconset/dx-grid-core', () => {
+  const actual = require.requireActual('@synconset/dx-grid-core');
   jest.spyOn(actual, 'getCollapsedGrid');
   return actual;
 });
 jest.mock('./column-group', () => ({
   ColumnGroup: () => null,
 }));
-jest.mock('@devexpress/dx-vue-core', () => ({
+jest.mock('@synconset/dx-vue-core', () => ({
   DxRefHolder: {
     name: 'DxRefHolder',
     render() {
@@ -177,7 +177,7 @@ describe('VirtualTableLayout', () => {
           expect(getRowHeight(rows[1]))
             .toEqual(10);
 
-          return require.requireActual('@devexpress/dx-grid-core').getCollapsedGrid(args);
+          return require.requireActual('@synconset/dx-grid-core').getCollapsedGrid(args);
         });
 
       mount({

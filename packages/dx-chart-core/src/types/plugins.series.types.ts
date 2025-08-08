@@ -1,9 +1,9 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import {
   Colors, SeriesList, DataItems, ScalesCache, ScaleObject,
 } from './chart-core.types';
 import { AnimationFn } from './plugins.animation.types';
-import { Size } from '@devexpress/dx-react-core';
+import { Size } from '@synconset/dx-react-core';
 
 /** @internal */
 export type AddSeriesFn = PureComputed<[SeriesList, DataItems, Colors, any, any]>;

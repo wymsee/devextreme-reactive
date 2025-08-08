@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Plugin, Getter, Getters } from '@devexpress/dx-react-core';
-import { isReadyToRenderSeries } from '@devexpress/dx-chart-core';
+import { Plugin, Getter, Getters } from '@synconset/dx-react-core';
+import { isReadyToRenderSeries } from '@synconset/dx-chart-core';
 
 export class ControllerComponent extends React.PureComponent {
   isPreviousDataEmpty: boolean = true;

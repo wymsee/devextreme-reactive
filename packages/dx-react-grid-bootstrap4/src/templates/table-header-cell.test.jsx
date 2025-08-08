@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount, shallow } from 'enzyme';
-import { DragDropProvider, DragSource } from '@devexpress/dx-react-core';
-import { setupConsole } from '@devexpress/dx-testing';
+import { DragDropProvider, DragSource } from '@synconset/dx-react-core';
+import { setupConsole } from '@synconset/dx-testing';
 
 import { TableHeaderCell } from './table-header-cell';
 import { ResizingControl } from './table-header-cell/resizing-control';

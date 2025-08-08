@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
-import { withKeyboardNavigation } from '@devexpress/dx-react-grid';
+import { withKeyboardNavigation } from '@synconset/dx-react-grid';
 import { Toolbar } from './toolbar';
 
-jest.mock('@devexpress/dx-react-grid', () => ({
+jest.mock('@synconset/dx-react-grid', () => ({
   withKeyboardNavigation: jest.fn().mockReturnValue(x => x),
 }));
 

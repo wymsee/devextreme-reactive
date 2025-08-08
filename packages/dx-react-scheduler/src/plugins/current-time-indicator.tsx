@@ -3,11 +3,11 @@ import {
   Plugin,
   Template,
   TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   isMonthCell, isShadedAppointment,
   isCellShaded, getCurrentTimeIndicatorTop,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { CurrentTimeIndicatorProps, Appointments } from '../types';
 
 const pluginDependencies = [

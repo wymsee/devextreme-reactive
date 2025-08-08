@@ -1,4 +1,4 @@
-import { TableLayout as TableLayoutCore, StaticTableLayout } from '@devexpress/dx-vue-grid';
+import { TableLayout as TableLayoutCore, StaticTableLayout } from '@synconset/dx-vue-grid';
 
 const MINIMAL_COLUMN_WIDTH = 150;
 

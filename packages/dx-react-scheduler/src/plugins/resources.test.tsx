@@ -1,15 +1,15 @@
 import * as React from 'react';
 import {
   pluginDepsToComponents, getComputedState, setupConsole,
-} from '@devexpress/dx-testing';
+} from '@synconset/dx-testing';
 import {
   convertResourcesToPlain, validateResources, addResourcesToAppointments,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from '@synconset/dx-react-core';
 import { Resources } from './resources';
 
-jest.mock('@devexpress/dx-scheduler-core', () => ({
+jest.mock('@synconset/dx-scheduler-core', () => ({
   convertResourcesToPlain: jest.fn(),
   validateResources: jest.fn(),
   addResourcesToAppointments: jest.fn(),

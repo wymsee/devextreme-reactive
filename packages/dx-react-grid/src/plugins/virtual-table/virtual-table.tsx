@@ -6,11 +6,11 @@ import {
   TemplatePlaceholder,
   Getter,
   Getters,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   isStubTableCell, checkColumnWidths, getScrollTop,
   TOP_POSITION, BOTTOM_POSITION, getTopRowId,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import {
   VirtualTableProps,
   Table as TableNS,

@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import { Group } from '../types';
 
 export type SchedulerDateTime = Date | number | string;

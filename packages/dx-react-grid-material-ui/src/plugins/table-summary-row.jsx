@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { TableSummaryRow as TableSummaryRowBase } from '@devexpress/dx-react-grid';
+import { withComponents } from '@synconset/dx-react-core';
+import { TableSummaryRow as TableSummaryRowBase } from '@synconset/dx-react-grid';
 import { TableSummaryItem } from '../templates/table-summary-item';
 import { TableCell } from '../templates/table-cell';
 import { TableRow } from '../templates/table-row';

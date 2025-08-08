@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
+import { setupConsole } from '@synconset/dx-testing';
 import {
   customTreeRowLevelKeyGetter,
   customTreeRowIdGetter,
@@ -9,12 +9,12 @@ import {
   isTreeRowLeafGetter,
   getTreeRowLevelGetter,
   unwrappedCustomTreeRows,
-} from '@devexpress/dx-grid-core';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
+} from '@synconset/dx-grid-core';
+import { DxPluginHost } from '@synconset/dx-vue-core';
 import { PluginDepsToComponents, getComputedState } from './test-utils';
 import { DxCustomTreeData } from './custom-tree-data';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   customTreeRowLevelKeyGetter: jest.fn(),
   customTreeRowIdGetter: jest.fn(),
   customTreeRowsWithMeta: jest.fn(),

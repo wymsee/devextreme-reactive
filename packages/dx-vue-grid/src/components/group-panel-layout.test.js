@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
+import { setupConsole } from '@synconset/dx-testing';
 import { GroupPanelLayout } from './group-panel-layout';
 
 

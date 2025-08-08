@@ -7,7 +7,7 @@ import {
   DAY_OPTIONS, DAY_SHORT_MONTH_OPTIONS,
   HORIZONTAL_GROUP_ORIENTATION, VERTICAL_GROUP_ORIENTATION,
   VIEW_TYPES,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 import { getBorder, getBrightBorder } from '../../../utils';
 import { SMALL_LAYOUT_MEDIA_QUERY, SPACING_CELL_HEIGHT } from '../../../constants';
 

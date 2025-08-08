@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { Getter, Action, Plugin, Getters, Actions } from '@devexpress/dx-react-core';
+import { Getter, Action, Plugin, Getters, Actions } from '@synconset/dx-react-core';
 import {
   virtualRowsWithCache, trimRowsToInterval, emptyVirtualRows, plainRows, loadedRowsStart,
   VirtualRows, Interval, getAvailableRowCount, needFetchMorePages, getReferenceIndex,
   shouldSendRequest, getRequestMeta,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { VirtualTableStateProps, VirtualTableStateState } from '../../types';
 
 const virtualRowsComputed = (

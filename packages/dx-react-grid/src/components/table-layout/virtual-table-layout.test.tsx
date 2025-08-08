@@ -1,18 +1,18 @@
 import * as React from 'react';
 import { shallow, mount } from 'enzyme';
-import { Sizer } from '@devexpress/dx-react-core';
+import { Sizer } from '@synconset/dx-react-core';
 import {
   getCollapsedGrids,
   TABLE_FLEX_TYPE,
   emptyViewport,
   getViewport,
   getScrollLeft,
-} from '@devexpress/dx-grid-core';
-import { setupConsole } from '@devexpress/dx-testing';
+} from '@synconset/dx-grid-core';
+import { setupConsole } from '@synconset/dx-testing';
 import { VirtualTableLayout } from './virtual-table-layout';
 
-jest.mock('@devexpress/dx-grid-core', () => {
-  const actual = jest.requireActual('@devexpress/dx-grid-core');
+jest.mock('@synconset/dx-grid-core', () => {
+  const actual = jest.requireActual('@synconset/dx-grid-core');
   jest.spyOn(actual, 'getCollapsedGrids');
   jest.spyOn(actual, 'getColumnWidthGetter');
   jest.spyOn(actual, 'getScrollLeft');
@@ -23,10 +23,10 @@ jest.mock('@devexpress/dx-grid-core', () => {
 jest.mock('./column-group', () => ({
   ColumnGroup: () => null,
 }));
-jest.mock('@devexpress/dx-react-core', () => {
+jest.mock('@synconset/dx-react-core', () => {
   const { Component } = jest.requireActual('react');
   return {
-    ...jest.requireActual('@devexpress/dx-react-core'),
+    ...jest.requireActual('@synconset/dx-react-core'),
     Sizer: class extends Component {
       componentDidMount() {
         // eslint-disable-next-line react/prop-types
@@ -205,7 +205,7 @@ describe('VirtualTableLayout', () => {
 
     getCollapsedGrids
       .mockImplementationOnce((args) => {
-        const result = jest.requireActual('@devexpress/dx-grid-core').getCollapsedGrids(args);
+        const result = jest.requireActual('@synconset/dx-grid-core').getCollapsedGrids(args);
 
         expect(result.bodyGrid.columns.find(col => col.key === 'col_flex').width)
           .toBe(undefined);
@@ -571,7 +571,7 @@ describe('VirtualTableLayout', () => {
           expect(getRowHeight(rows[1]))
             .toEqual(10);
 
-          return jest.requireActual('@devexpress/dx-grid-core').getCollapsedGrids(args);
+          return jest.requireActual('@synconset/dx-grid-core').getCollapsedGrids(args);
         });
 
       mount((

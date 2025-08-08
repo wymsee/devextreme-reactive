@@ -1,4 +1,4 @@
-import { withPatchedProps } from '@devexpress/dx-react-chart';
+import { withPatchedProps } from '@synconset/dx-react-chart';
 import classNames from 'clsx';
 
 export const withClassName = (...args) => {

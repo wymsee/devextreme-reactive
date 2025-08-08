@@ -1,9 +1,9 @@
-import { DxGetter, DxAction, DxPlugin } from '@devexpress/dx-vue-core';
+import { DxGetter, DxAction, DxPlugin } from '@synconset/dx-vue-core';
 import {
   changeColumnFilter,
   getColumnExtensionValueGetter,
   filterExpression,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 
 const columnExtensionValueGetter = (
   columnExtensions, defaultValue,

@@ -1,10 +1,10 @@
-import { DxRowDetailState } from '@devexpress/dx-vue-grid';
+import { DxRowDetailState } from '@synconset/dx-vue-grid';
 import {
   DxGrid,
   DxTable,
   DxTableHeaderRow,
   DxTableRowDetail,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 import { generateRows } from '../../../demo-data/generator';
 

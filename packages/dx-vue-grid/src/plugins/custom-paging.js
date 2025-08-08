@@ -1,4 +1,4 @@
-import { DxGetter, DxPlugin } from '@devexpress/dx-vue-core';
+import { DxGetter, DxPlugin } from '@synconset/dx-vue-core';
 
 const pluginDependencies = [
   { name: 'DxPagingState' },

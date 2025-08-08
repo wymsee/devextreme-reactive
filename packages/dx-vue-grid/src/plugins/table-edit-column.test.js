@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { setupConsole } from '@synconset/dx-testing';
+import { DxPluginHost } from '@synconset/dx-vue-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   tableColumnsWithEditing,
   isHeadingEditCommandsTableCell,
@@ -9,11 +9,11 @@ import {
   isEditCommandsTableCell,
   isAddedTableRow,
   isEditTableRow,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { DxTableEditColumn } from './table-edit-column';
 import { PluginDepsToComponents, getComputedState } from './test-utils';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableColumnsWithEditing: jest.fn(),
   isHeadingEditCommandsTableCell: jest.fn(),
   isDataEditCommandsTableCell: jest.fn(),
@@ -22,8 +22,8 @@ jest.mock('@devexpress/dx-grid-core', () => ({
   isEditTableRow: jest.fn(),
 }));
 
-jest.mock('@devexpress/dx-core', () => ({
-  ...require.requireActual('@devexpress/dx-core'),
+jest.mock('@synconset/dx-core', () => ({
+  ...require.requireActual('@synconset/dx-core'),
   getMessagesFormatter: jest.fn(),
 }));
 

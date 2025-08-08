@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import { TABLE_GROUP_TYPE } from './constants';
 import { TableRow, TableColumn, IsSpecificCellFn, Grouping, GroupSummaryItem } from '../../types';
 import { TABLE_STUB_TYPE } from '../../utils/virtual-table';

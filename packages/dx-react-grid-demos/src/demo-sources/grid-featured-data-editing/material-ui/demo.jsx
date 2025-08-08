@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import {
   SortingState, EditingState, PagingState, SummaryState,
   IntegratedPaging, IntegratedSorting, IntegratedSummary,
-} from '@devexpress/dx-react-grid';
+} from '@synconset/dx-react-grid';
 import {
   Grid,
   Table, TableHeaderRow, TableEditRow, TableEditColumn,
   PagingPanel, DragDropProvider, TableColumnReordering,
   TableFixedColumns, TableSummaryRow,
-} from '@devexpress/dx-react-grid-material-ui';
+} from '@synconset/dx-react-grid-material-ui';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';

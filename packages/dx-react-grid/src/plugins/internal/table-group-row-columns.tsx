@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {
   Getter, Plugin, Getters,
-} from '@devexpress/dx-react-core';
-import { tableColumnsWithGrouping } from '@devexpress/dx-grid-core';
+} from '@synconset/dx-react-core';
+import { tableColumnsWithGrouping } from '@synconset/dx-grid-core';
 import { ShowColumnWhenGroupedGetterFn, TableColumnsWithGroupingProps } from '../../types';
 
 const showColumnWhenGroupedGetter: ShowColumnWhenGroupedGetterFn = (

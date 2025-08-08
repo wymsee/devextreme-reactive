@@ -4,7 +4,7 @@ import {
   DxPagingState,
   DxIntegratedSorting,
   DxIntegratedPaging,
-} from '@devexpress/dx-vue-grid';
+} from '@synconset/dx-vue-grid';
 
 import {
   DxGrid,
@@ -13,7 +13,7 @@ import {
   DxTableEditColumn,
   DxTableEditRow,
   DxPagingPanel,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 import {
   generateRows,

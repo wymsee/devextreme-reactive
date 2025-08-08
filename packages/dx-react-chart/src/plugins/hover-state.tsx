@@ -3,10 +3,10 @@ import {
   Plugin,
   Getter,
   Getters,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   changeSeriesState, processPointerMove, HOVERED, TargetData,
-} from '@devexpress/dx-chart-core';
+} from '@synconset/dx-chart-core';
 import { HoverStateProps, HoverStateState, GetPointerMoveHandlersFn } from '../types';
 
 const dependencies = [{ name: 'EventTracker', optional: true }];

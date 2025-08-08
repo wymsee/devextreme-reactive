@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   Getter, Template, Plugin, TemplateConnector, Getters,
-} from '@devexpress/dx-react-core';
+} from '@synconset/dx-react-core';
 import {
   TABLE_EDIT_COMMAND_TYPE,
   tableColumnsWithEditing,
@@ -10,7 +10,7 @@ import {
   isEditCommandsTableCell,
   isAddedTableRow,
   isEditTableRow,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { TableEditColumnProps, TableCellProps } from '../types';
 
 const pluginDependencies = [

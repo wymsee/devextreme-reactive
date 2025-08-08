@@ -1,4 +1,4 @@
-import { DxSizer } from '@devexpress/dx-vue-core';
+import { DxSizer } from '@synconset/dx-vue-core';
 
 export default {
   render() {

@@ -1,7 +1,7 @@
-import { hasWindow } from '@devexpress/dx-core';
+import { hasWindow } from '@synconset/dx-core';
 import { buildEventHandlers } from './event-tracker';
 
-jest.mock('@devexpress/dx-core', () => ({
+jest.mock('@synconset/dx-core', () => ({
   hasWindow: jest.fn(),
 }));
 

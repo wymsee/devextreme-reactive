@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { withComponents } from '@devexpress/dx-react-core';
-import { TableGroupRow as TableGroupRowBase, InlineSummaryItem } from '@devexpress/dx-react-grid';
+import { withComponents } from '@synconset/dx-react-core';
+import { TableGroupRow as TableGroupRowBase, InlineSummaryItem } from '@synconset/dx-react-grid';
 import { CaptionCell as Cell } from '../templates/table-group-cell/caption-cell';
 import { Content } from '../templates/table-group-cell/content';
 import { Container } from '../templates/table-group-cell/container';

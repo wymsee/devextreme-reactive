@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents, getComputedState, setupConsole } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   tableColumnsWithDataRows,
   tableRowsWithDataRows,
@@ -11,10 +11,10 @@ import {
   isDataTableCell,
   isHeaderStubTableCell,
   isDataTableRow,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { Table } from './table';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableColumnsWithDataRows: jest.fn(),
   tableRowsWithDataRows: jest.fn(),
   tableCellColSpanGetter: jest.fn(),

@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import {
   ValidResourceInstance, Group, ViewCell, ValidResource,
   AppointmentMoment, Grouping, GroupOrientation, AppointmentKey,

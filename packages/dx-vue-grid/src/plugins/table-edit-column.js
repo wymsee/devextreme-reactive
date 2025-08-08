@@ -1,14 +1,14 @@
 import {
   DxGetter, DxTemplate, DxPlugin, DxTemplateConnector,
-} from '@devexpress/dx-vue-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+} from '@synconset/dx-vue-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
 import {
   tableColumnsWithEditing,
   isHeadingEditCommandsTableCell,
   isEditCommandsTableCell,
   isAddedTableRow,
   isEditTableRow,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 
 const pluginDependencies = [
   { name: 'DxEditingState' },

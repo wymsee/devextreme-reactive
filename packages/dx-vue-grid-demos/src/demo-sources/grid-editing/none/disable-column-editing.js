@@ -1,11 +1,11 @@
-import { DxEditingState } from '@devexpress/dx-vue-grid';
+import { DxEditingState } from '@synconset/dx-vue-grid';
 import {
   DxGrid,
   DxTable,
   DxTableHeaderRow,
   DxTableEditRow,
   DxTableEditColumn,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 import {
   generateRows,
   defaultColumnValues,

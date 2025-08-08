@@ -1,8 +1,8 @@
 import { shallow } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
+import { setupConsole } from '@synconset/dx-testing';
 import { TableLayout } from './table-layout';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   TABLE_FLEX_TYPE: 'flex',
 }));
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { pluginDepsToComponents, executeComputedAction } from '@devexpress/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
+import { pluginDepsToComponents, executeComputedAction } from '@synconset/dx-testing';
 import { EditRecurrenceMenu } from './edit-recurrence-menu';
 
 describe('EditRecurrenceMenu', () => {

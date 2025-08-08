@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Plugin, Getter } from '@devexpress/dx-react-core';
-import { defaultDomains } from '@devexpress/dx-chart-core';
+import { Plugin, Getter } from '@synconset/dx-react-core';
+import { defaultDomains } from '@synconset/dx-chart-core';
 import { BasicDataProps } from '../types';
 
 const series = [];

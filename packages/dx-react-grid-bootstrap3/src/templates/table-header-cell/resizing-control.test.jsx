@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
-import { setupConsole } from '@devexpress/dx-testing';
-import { Draggable } from '@devexpress/dx-react-core';
+import { setupConsole } from '@synconset/dx-testing';
+import { Draggable } from '@synconset/dx-react-core';
 import { ResizingControl } from './resizing-control';
 
 const defaultProps = {

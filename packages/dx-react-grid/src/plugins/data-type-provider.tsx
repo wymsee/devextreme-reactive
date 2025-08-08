@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Plugin, Template, Getter, Getters } from '@devexpress/dx-react-core';
-import { getAvailableFilterOperationsGetter } from '@devexpress/dx-grid-core';
+import { Plugin, Template, Getter, Getters } from '@synconset/dx-react-core';
+import { getAvailableFilterOperationsGetter } from '@synconset/dx-grid-core';
 import {
   DataTypeProvider as DataTypeProviderNS, DataTypeProviderProps,
 } from '../types';

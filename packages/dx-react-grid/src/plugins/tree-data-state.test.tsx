@@ -1,8 +1,8 @@
-import { testStatePluginField, setupConsole } from '@devexpress/dx-testing';
-import { toggleRowExpanded } from '@devexpress/dx-grid-core';
+import { testStatePluginField, setupConsole } from '@synconset/dx-testing';
+import { toggleRowExpanded } from '@synconset/dx-grid-core';
 import { TreeDataState } from './tree-data-state';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   toggleRowExpanded: jest.fn(),
 }));
 

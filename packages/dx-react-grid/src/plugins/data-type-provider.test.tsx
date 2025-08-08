@@ -1,16 +1,16 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { getAvailableFilterOperationsGetter } from '@devexpress/dx-grid-core';
+import { getAvailableFilterOperationsGetter } from '@synconset/dx-grid-core';
 import {
   PluginHost,
   Template,
   TemplateConnector,
   TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
-import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
+} from '@synconset/dx-react-core';
+import { pluginDepsToComponents, getComputedState, setupConsole } from '@synconset/dx-testing';
 import { DataTypeProvider } from './data-type-provider';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   getAvailableFilterOperationsGetter: jest.fn(),
 }));
 

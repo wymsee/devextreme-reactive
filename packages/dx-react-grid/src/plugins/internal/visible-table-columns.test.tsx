@@ -1,14 +1,14 @@
 
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { pluginDepsToComponents, getComputedState } from '@synconset/dx-testing';
+import { PluginHost } from '@synconset/dx-react-core';
 import {
   visibleTableColumns,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { VisibleTableColumns } from './visible-table-columns';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   visibleTableColumns: jest.fn(),
 }));
 

@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import { TABLE_FILTER_TYPE } from './constants';
 import { TableRow } from '../../types';
 

@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { GroupingPanel as GroupingPanelBase } from '@devexpress/dx-react-scheduler';
+import { withComponents } from '@synconset/dx-react-core';
+import { GroupingPanel as GroupingPanelBase } from '@synconset/dx-react-scheduler';
 import { HorizontalLayout } from '../templates/grouping-panel/horizontal-layout';
 import { VerticalLayout } from '../templates/grouping-panel/vertical-layout';
 import { Cell } from '../templates/grouping-panel/cell';

@@ -4,7 +4,7 @@ import {
 } from '@mui/material';
 import PropTypes from 'prop-types';
 import classNames from 'clsx';
-import { NUMBER_EDITOR } from '@devexpress/dx-scheduler-core';
+import { NUMBER_EDITOR } from '@synconset/dx-scheduler-core';
 
 const PREFIX = 'ChangeMonthEditor';
 

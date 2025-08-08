@@ -2,13 +2,13 @@ import {
   DxSelectionState,
   DxIntegratedSelection,
   DxIntegratedPaging,
-} from '@devexpress/dx-vue-grid';
+} from '@synconset/dx-vue-grid';
 import {
   DxGrid,
   DxVirtualTable,
   DxTableHeaderRow,
   DxTableSelection,
-} from '@devexpress/dx-vue-grid-bootstrap4';
+} from '@synconset/dx-vue-grid-bootstrap4';
 
 import { generateRows } from '../../../demo-data/generator';
 

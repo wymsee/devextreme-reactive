@@ -1,16 +1,16 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
+import { setupConsole } from '@synconset/dx-testing';
+import { DxPluginHost } from '@synconset/dx-vue-core';
 import {
   tableRowsWithHeading,
   isHeadingTableCell,
   isHeadingTableRow,
   getColumnSortingDirection,
-} from '@devexpress/dx-grid-core';
+} from '@synconset/dx-grid-core';
 import { DxTableHeaderRow } from './table-header-row';
 import { PluginDepsToComponents, getComputedState } from './test-utils';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   tableRowsWithHeading: jest.fn(),
   isHeadingTableCell: jest.fn(),
   isHeadingTableRow: jest.fn(),

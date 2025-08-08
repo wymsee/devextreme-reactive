@@ -12,7 +12,7 @@ import {
   getRadioGroupDisplayData,
   getWeekNumberLabels,
   getDaysOfWeek,
-} from '@devexpress/dx-scheduler-core';
+} from '@synconset/dx-scheduler-core';
 
 const PREFIX = 'MonthlyEditor';
 

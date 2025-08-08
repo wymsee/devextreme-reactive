@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { WeekView as WeekViewBase } from '@devexpress/dx-react-scheduler';
+import { withComponents } from '@synconset/dx-react-core';
+import { WeekView as WeekViewBase } from '@synconset/dx-react-scheduler';
 import { MainLayout as Layout } from '../templates/layouts/main-layout';
 
 import { Row } from '../templates/views/common/row';

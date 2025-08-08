@@ -1,5 +1,5 @@
-import { createRenderComponent } from '@devexpress/dx-vue-core';
-import { DxTable as TableBase } from '@devexpress/dx-vue-grid';
+import { createRenderComponent } from '@synconset/dx-vue-core';
+import { DxTable as TableBase } from '@synconset/dx-vue-grid';
 import { Table as TableComponent } from '../templates/table';
 import { VirtualTableLayout } from '../templates/virtual-table-layout';
 import { TableCell } from '../templates/table-cell';

@@ -1,11 +1,11 @@
 import { mount } from '@vue/test-utils';
-import { setupConsole } from '@devexpress/dx-testing';
-import { DxPluginHost, DxTemplate } from '@devexpress/dx-vue-core';
-import { rowIdGetter, cellValueGetter } from '@devexpress/dx-grid-core';
+import { setupConsole } from '@synconset/dx-testing';
+import { DxPluginHost, DxTemplate } from '@synconset/dx-vue-core';
+import { rowIdGetter, cellValueGetter } from '@synconset/dx-grid-core';
 import { GridCore } from './grid-core';
 import { PluginDepsToComponents, getComputedState } from './test-utils';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   rowIdGetter: jest.fn(),
   cellValueGetter: jest.fn(),
 }));

@@ -1,10 +1,10 @@
 import { mount } from '@vue/test-utils';
-import { DxPluginHost } from '@devexpress/dx-vue-core';
-import { toggleRowExpanded } from '@devexpress/dx-grid-core';
+import { DxPluginHost } from '@synconset/dx-vue-core';
+import { toggleRowExpanded } from '@synconset/dx-grid-core';
 import { DxTreeDataState } from './tree-data-state';
 import { PluginDepsToComponents, executeComputedAction, getComputedState } from './test-utils';
 
-jest.mock('@devexpress/dx-grid-core', () => ({
+jest.mock('@synconset/dx-grid-core', () => ({
   toggleRowExpanded: jest.fn(),
 }));
 

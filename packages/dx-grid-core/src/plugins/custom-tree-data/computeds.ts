@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from '@synconset/dx-core';
 import { GRID_TREE_NODE_TYPE } from './constants';
 import {
   RowsWithTreeMetaMap, RowsWithCollapsedRowsMetaMap, IsSpecificTreeRowGetter, GetRowIdFn,

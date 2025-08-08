@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { getMessagesFormatter } from '@devexpress/dx-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { getMessagesFormatter } from '@synconset/dx-core';
+import { PluginHost } from '@synconset/dx-react-core';
 import { TableSummaryContent } from './table-summary-content';
 import { defaultSummaryMessages } from './constants';
 import { TableSummaryRow } from '../../types';
 
-jest.mock('@devexpress/dx-core', () => ({
-  ...jest.requireActual('@devexpress/dx-core'),
+jest.mock('@synconset/dx-core', () => ({
+  ...jest.requireActual('@synconset/dx-core'),
   getMessagesFormatter: jest.fn().mockReturnValue(() => {}),
 }));
 
