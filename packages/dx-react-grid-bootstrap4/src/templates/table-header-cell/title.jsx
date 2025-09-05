@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import classNames from 'clsx';
 
 export const Title = ({
-  children, className, ...restProps
+  children = undefined,
+  className = null,
+  ...restProps
 }) => (
   <span
     className={classNames('dx-rg-bs4-table-header-title', className)}
@@ -21,7 +23,3 @@ Title.propTypes = {
   className: PropTypes.string,
 };
 
-Title.defaultProps = {
-  className: null,
-  children: undefined,
-};

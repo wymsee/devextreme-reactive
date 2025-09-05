@@ -2,7 +2,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import { getCellGeometries } from '@synconset/dx-grid-core';
 
-export const TableReorderingCell = ({ style, getCellDimensions }) => {
+export const TableReorderingCell = ({ style = null, getCellDimensions }) => {
   const refHandler = node => node && getCellDimensions(() => getCellGeometries(node));
   return (
     <td
@@ -18,6 +18,3 @@ TableReorderingCell.propTypes = {
   style: PropTypes.object,
 };
 
-TableReorderingCell.defaultProps = {
-  style: null,
-};

@@ -5,10 +5,19 @@ import classNames from 'clsx';
 import { ResizingControl } from './resizing-control';
 
 export const CellLayout = ({
-  column, tableColumn,
-  draggingEnabled, resizingEnabled, dragging,
-  onWidthChange, onWidthDraft, onWidthDraftCancel, getCellWidth,
-  tableRow, className, children, forwardedRef,
+  column = undefined,
+  tableColumn = undefined,
+  tableRow = undefined,
+  dragging = false,
+  draggingEnabled = false,
+  resizingEnabled = false,
+  onWidthChange = undefined,
+  onWidthDraft = undefined,
+  onWidthDraftCancel = undefined,
+  className = undefined,
+  children = undefined,
+  getCellWidth = () => {},
+  forwardedRef = undefined,
   ...restProps
 }) => {
   const cellRef = React.useRef();
@@ -77,18 +86,3 @@ CellLayout.propTypes = {
   forwardedRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
 };
 
-CellLayout.defaultProps = {
-  column: undefined,
-  tableColumn: undefined,
-  tableRow: undefined,
-  dragging: false,
-  draggingEnabled: false,
-  resizingEnabled: false,
-  onWidthChange: undefined,
-  onWidthDraft: undefined,
-  onWidthDraftCancel: undefined,
-  className: undefined,
-  children: undefined,
-  getCellWidth: () => {},
-  forwardedRef: undefined,
-};

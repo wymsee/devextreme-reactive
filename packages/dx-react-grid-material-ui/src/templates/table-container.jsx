@@ -20,8 +20,8 @@ const StyledDiv = styled('div')(() => ({
 
 export const TableContainer = ({
   children,
-  className = undefined,
-  forwardedRef = undefined,
+  className,
+  forwardedRef,
   ...restProps
 }) => (
   <StyledDiv
@@ -39,4 +39,9 @@ TableContainer.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
   forwardedRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+};
+
+TableContainer.defaultProps = {
+  className: undefined,
+  forwardedRef: undefined,
 };

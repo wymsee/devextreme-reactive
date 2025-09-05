@@ -34,14 +34,11 @@ TableHead.defaultProps = {
   className: undefined,
 };
 
-export const TableBody = ({ isFixed, ...restProps }) => <tbody {...restProps} />;
+export const TableBody = ({ isFixed = undefined, ...restProps }) => <tbody {...restProps} />;
 TableBody.propTypes = {
   isFixed: PropTypes.bool,
 };
 
-TableBody.defaultProps = {
-  isFixed: undefined,
-};
 
 export const TableFooter = ({
   isFixed, ...restProps
