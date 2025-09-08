@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-chart-material-ui",
-  "version": "4.0.15",
+  "version": "4.0.16",
   "description": "Material-UI templates for Synconset React Chart component",
   "author": {
     "name": "Synconset Inc.",
@@ -70,8 +70,8 @@
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.6",
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "@synconset/dx-react-core": "^4.0.12",
-    "@synconset/dx-testing": "^4.0.12",
+    "@synconset/dx-react-core": "^4.0.16",
+    "@synconset/dx-testing": "^4.0.16",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
