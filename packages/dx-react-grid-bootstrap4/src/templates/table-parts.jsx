@@ -27,11 +27,6 @@ TableHead.propTypes = {
   style: PropTypes.object,
 };
 
-TableHead.defaultProps = {
-  isFixed: undefined,
-  style: undefined,
-  className: undefined,
-};
 
 export const TableBody = (props) => {
   const { isFixed = undefined, ...restProps } = props;
@@ -63,6 +58,3 @@ TableFooter.propTypes = {
   isFixed: PropTypes.bool,
 };
 
-TableFooter.defaultProps = {
-  isFixed: undefined,
-};
