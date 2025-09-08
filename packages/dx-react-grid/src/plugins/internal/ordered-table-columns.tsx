@@ -9,23 +9,23 @@ import {
 } from '@synconset/dx-grid-core';
 import { OrderedTableColumnsProps } from '../../types';
 
+// Define default order outside component to maintain referential equality
+const DEFAULT_ORDER: string[] = [];
+
 /** @internal */
 export const OrderedTableColumns: React.FunctionComponent<
   OrderedTableColumnsProps
 > = ({
-  order,
+  order = DEFAULT_ORDER,
 }) => {
-  const columnsComputed = (
-    { tableColumns }: Getters,
-  ) => orderedColumns(tableColumns, order!);
+  const columnsComputed = React.useCallback(
+    ({ tableColumns }: Getters) => orderedColumns(tableColumns, order),
+    [order]
+  );
 
   return (
     <Plugin>
       <Getter name="tableColumns" computed={columnsComputed} />
     </Plugin>
   );
-};
-
-OrderedTableColumns.defaultProps = {
-  order: [],
 };

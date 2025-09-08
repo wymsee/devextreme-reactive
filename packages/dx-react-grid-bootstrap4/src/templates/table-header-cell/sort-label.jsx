@@ -26,7 +26,15 @@ const onClick = (e, onSort) => {
 };
 
 export const SortLabel = ({
-  align, direction, disabled, children, onSort, getMessage, className, column, ...restProps
+  align = 'left',
+  direction = null,
+  disabled = false,
+  children = undefined,
+  onSort,
+  getMessage = () => {},
+  className = undefined,
+  column = undefined,
+  ...restProps
 }) => (
   <span
     className={classNames({
@@ -60,12 +68,3 @@ SortLabel.propTypes = {
   getMessage: PropTypes.func,
 };
 
-SortLabel.defaultProps = {
-  column: undefined,
-  direction: null,
-  disabled: false,
-  children: undefined,
-  className: undefined,
-  align: 'left',
-  getMessage: () => {},
-};

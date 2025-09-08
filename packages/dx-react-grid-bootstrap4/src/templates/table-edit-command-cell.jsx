@@ -67,9 +67,12 @@ EditCommandHeadingCell.defaultProps = {
 };
 
 export const EditCommandCell = ({
-  tableColumn, tableRow, row,
-  children, className,
-  forwardedRef,
+  tableColumn = undefined,
+  tableRow = undefined,
+  row = undefined,
+  children,
+  className = undefined,
+  forwardedRef = undefined,
   ...restProps
 }) => (
   <td
@@ -95,11 +98,4 @@ EditCommandCell.propTypes = {
   forwardedRef: PropTypes.func,
 };
 
-EditCommandCell.defaultProps = {
-  children: undefined,
-  tableColumn: undefined,
-  tableRow: undefined,
-  row: undefined,
-  className: undefined,
-  forwardedRef: undefined,
-};
+
