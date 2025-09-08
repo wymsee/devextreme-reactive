@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@synconset/dx-react-scheduler-demos",
-  "version": "4.0.14",
+  "version": "4.0.15",
   "description": "Synconset React Components Demos",
   "author": {
     "name": "Synconset Inc.",

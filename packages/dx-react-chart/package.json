@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-chart",
-  "version": "4.0.14",
+  "version": "4.0.15",
   "description": "Composable plugin-based chart component for React",
   "author": {
     "name": "Synconset Inc.",

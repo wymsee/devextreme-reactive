@@ -1,7 +1,7 @@
 {
   "name": "@synconset/dx-vue-grid",
   "private": true,
-  "version": "4.0.14",
+  "version": "4.0.15",
   "description": "Composable plugin-based data grid component for Vue",
   "author": {
     "name": "Synconset Inc.",
