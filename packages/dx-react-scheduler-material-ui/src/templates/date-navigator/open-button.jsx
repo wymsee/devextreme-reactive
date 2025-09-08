@@ -34,7 +34,7 @@ const StyledIconButton = styled(IconButton)(({ theme: { spacing } }) => ({
 }));
 
 export const OpenButton = React.memo(({
-  text, onVisibilityToggle, className, ...restProps
+  text = '', onVisibilityToggle, className = undefined, ...restProps
 }) => (
   <React.Fragment>
     <StyledButton
@@ -59,9 +59,4 @@ OpenButton.propTypes = {
   onVisibilityToggle: PropTypes.func.isRequired,
   text: PropTypes.string,
   className: PropTypes.string,
-};
-
-OpenButton.defaultProps = {
-  text: '',
-  className: undefined,
 };

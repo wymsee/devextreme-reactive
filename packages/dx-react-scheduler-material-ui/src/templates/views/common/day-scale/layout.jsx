@@ -6,10 +6,10 @@ import { Table } from '../table';
 export const Layout = React.memo(({
   cellComponent: Cell,
   rowComponent: Row,
-  groupingPanelComponent: GroupingPanel,
+  groupingPanelComponent: GroupingPanel = () => null,
   cellsData,
   formatDate,
-  groupedByDate,
+  groupedByDate = false,
   ...restProps
 }) => (
   <Table
@@ -50,8 +50,4 @@ Layout.propTypes = {
   groupingPanelComponent: PropTypes.func,
   formatDate: PropTypes.func.isRequired,
   groupedByDate: PropTypes.bool,
-};
-Layout.defaultProps = {
-  groupingPanelComponent: () => null,
-  groupedByDate: false,
 };

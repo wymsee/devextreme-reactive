@@ -57,9 +57,9 @@ const StyledDiv = styled('div')(({ theme: { spacing } }) => {
 });
 
 export const Resize = React.memo(({
-  className,
+  className = undefined,
   position, appointmentType,
-  forwardedRef, ...restProps
+  forwardedRef = undefined, ...restProps
 }) => {
   const vertical = appointmentType === VERTICAL_TYPE;
   const start = position === POSITION_START;
@@ -83,9 +83,4 @@ Resize.propTypes = {
   appointmentType: PropTypes.oneOf([HORIZONTAL_TYPE, VERTICAL_TYPE]).isRequired,
   className: PropTypes.string,
   forwardedRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
-};
-
-Resize.defaultProps = {
-  className: undefined,
-  forwardedRef: undefined,
 };

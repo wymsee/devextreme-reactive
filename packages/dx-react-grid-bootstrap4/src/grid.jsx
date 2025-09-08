@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Grid as GridBase } from '@synconset/dx-react-grid';
 import { Root } from './templates/layout';
 
-export const Grid = ({ children, ...props }) => (
+export const Grid = ({ children = undefined, ...props }) => (
   <GridBase
     rootComponent={Root}
     {...props}

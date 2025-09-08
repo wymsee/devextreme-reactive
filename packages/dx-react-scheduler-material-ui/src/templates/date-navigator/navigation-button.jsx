@@ -24,8 +24,8 @@ const StyledIconButton = styled(IconButton)(({ theme: { spacing } }) => ({
 
 export const NavigationButton = React.memo(({
   type,
-  onClick,
-  className,
+  onClick = () => {},
+  className = undefined,
   ...restProps
 }) => (
   <StyledIconButton
@@ -43,9 +43,4 @@ NavigationButton.propTypes = {
   type: PropTypes.oneOf(['forward', 'back']).isRequired,
   onClick: PropTypes.func,
   className: PropTypes.string,
-};
-
-NavigationButton.defaultProps = {
-  onClick: () => {},
-  className: undefined,
 };

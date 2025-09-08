@@ -13,7 +13,7 @@ const StyledSpan = styled('span')(({ theme }) => ({
   },
 }));
 
-export const TableTreeIndent = React.memo(({ level }) => Array.from({ length: level })
+export const TableTreeIndent = React.memo(({ level = 0 }) => Array.from({ length: level })
   .map((value, currentLevel) => (
     <StyledSpan
         // eslint-disable-next-line react/no-array-index-key
@@ -24,8 +24,4 @@ export const TableTreeIndent = React.memo(({ level }) => Array.from({ length: le
 
 TableTreeIndent.propTypes = {
   level: PropTypes.number,
-};
-
-TableTreeIndent.defaultProps = {
-  level: 0,
 };

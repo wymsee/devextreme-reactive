@@ -32,7 +32,7 @@ export const StyledButton = styled(Button)(({
 }));
 
 export const SaveButton = React.memo(({
-  getMessage, className, onExecute, ...restProps
+  getMessage, className = undefined, onExecute, ...restProps
 }) => (
   <StyledButton
     className={classNames({
@@ -50,8 +50,4 @@ SaveButton.propTypes = {
   className: PropTypes.string,
   getMessage: PropTypes.func.isRequired,
   onExecute: PropTypes.func.isRequired,
-};
-
-SaveButton.defaultProps = {
-  className: undefined,
 };

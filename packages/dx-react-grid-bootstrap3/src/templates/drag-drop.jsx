@@ -41,7 +41,7 @@ Container.defaultProps = {
   children: undefined,
 };
 
-export const Column = React.memo(({ column, className, ...restProps }) => (
+export const Column = React.memo(({ column, className = undefined, ...restProps }) => (
   <li
     className={classNames('list-group-item', className)}
     {...restProps}
@@ -53,8 +53,4 @@ export const Column = React.memo(({ column, className, ...restProps }) => (
 Column.propTypes = {
   column: PropTypes.object.isRequired,
   className: PropTypes.string,
-};
-
-Column.defaultProps = {
-  className: undefined,
 };

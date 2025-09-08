@@ -21,11 +21,11 @@ const renderCell = (
 export const Layout = React.memo(({
   setCellElementsMeta,
   cellComponent,
-  allDayCellComponent,
+  allDayCellComponent = () => null,
   rowComponent: Row,
-  allDayRowComponent: AllDayRow,
+  allDayRowComponent = () => null,
   cellsData,
-  allDayCellsData,
+  allDayCellsData = undefined,
   formatDate,
   ...restProps
 }) => (
@@ -70,10 +70,4 @@ Layout.propTypes = {
   allDayRowComponent: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
   formatDate: PropTypes.func.isRequired,
   setCellElementsMeta: PropTypes.func.isRequired,
-};
-
-Layout.defaultProps = {
-  allDayCellComponent: () => null,
-  allDayRowComponent: () => null,
-  allDayCellsData: undefined,
 };

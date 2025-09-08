@@ -4,7 +4,8 @@ import classNames from 'clsx';
 import { BodyColorContext } from './layout';
 
 export const Table = ({
-  children,use = undefined,
+  use = undefined,
+  children = undefined,
   style = null,
   className = undefined,
   forwardedRef = undefined,

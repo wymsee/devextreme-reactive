@@ -63,7 +63,7 @@ const StyledChip = styled(Chip)(({ theme }) => ({
 
 export const Column = React.memo(({
   column,
-  className,
+  className = undefined,
   ...restProps
 }) => (
   <StyledChip
@@ -76,8 +76,4 @@ export const Column = React.memo(({
 Column.propTypes = {
   column: PropTypes.object.isRequired,
   className: PropTypes.string,
-};
-
-Column.defaultProps = {
-  className: undefined,
 };
