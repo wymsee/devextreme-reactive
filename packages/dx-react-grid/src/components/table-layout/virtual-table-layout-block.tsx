@@ -15,7 +15,7 @@ export class VirtualTableLayoutBlock extends React.PureComponent<VirtualTableLay
     } = this.props;
 
     return (
-      <Body isFixed={isFixed}>
+      <Body isfixed={isFixed}>
         {collapsedGrid.rows.map((visibleRow) => {
           const { row, cells = [] } = visibleRow;
 
