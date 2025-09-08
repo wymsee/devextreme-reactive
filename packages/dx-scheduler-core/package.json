@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-scheduler-core",
-  "version": "4.0.18",
+  "version": "4.0.19",
   "description": "Core library for the Synconset Reactive Scheduler component",
   "author": {
     "name": "Synconset Inc.",
@@ -60,7 +60,7 @@
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
     "@rollup/plugin-replace": "^2.3.1",
-    "@synconset/dx-core": "^4.0.18",
+    "@synconset/dx-core": "^4.0.19",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^29.2.2",
     "core-js": "^3.4.1",

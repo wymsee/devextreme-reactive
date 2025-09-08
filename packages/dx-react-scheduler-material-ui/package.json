@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-scheduler-material-ui",
-  "version": "4.0.18",
+  "version": "4.0.19",
   "description": "Material-UI templates for Synconset React Scheduler component",
   "author": {
     "name": "Synconset Inc.",
@@ -70,10 +70,10 @@
     "@mui/material": "^5.11.6",
     "@mui/x-date-pickers": "^5.0.15",
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "@synconset/dx-react-core": "^4.0.18",
-    "@synconset/dx-react-scheduler": "^4.0.18",
-    "@synconset/dx-scheduler-core": "^4.0.18",
-    "@synconset/dx-testing": "^4.0.18",
+    "@synconset/dx-react-core": "^4.0.19",
+    "@synconset/dx-react-scheduler": "^4.0.19",
+    "@synconset/dx-scheduler-core": "^4.0.19",
+    "@synconset/dx-testing": "^4.0.19",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",

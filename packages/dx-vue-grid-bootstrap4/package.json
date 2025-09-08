@@ -1,7 +1,7 @@
 {
   "name": "@synconset/dx-vue-grid-bootstrap4",
   "private": true,
-  "version": "4.0.18",
+  "version": "4.0.19",
   "description": "Bootstrap 4 templates for DevExtreme Vue Grid component",
   "author": {
     "name": "Synconset Inc.",
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "@synconset/dx-testing": "^4.0.18",
+    "@synconset/dx-testing": "^4.0.19",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "^6.26.3",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
@@ -71,8 +71,8 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "@synconset/dx-core": "^4.0.18",
-    "@synconset/dx-grid-core": "^4.0.18"
+    "@synconset/dx-core": "^4.0.19",
+    "@synconset/dx-grid-core": "^4.0.19"
   },
   "peerDependencies": {
     "@synconset/dx-vue-core": ">=4.0.0 <5",

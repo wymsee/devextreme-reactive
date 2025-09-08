@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-chart-bootstrap4",
-  "version": "4.0.18",
+  "version": "4.0.19",
   "description": "Bootstrap 4 templates for Synconset React Chart component",
   "author": {
     "name": "Synconset Inc.",
@@ -68,10 +68,10 @@
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.8.3",
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "@synconset/dx-chart-core": "^4.0.18",
-    "@synconset/dx-react-chart": "^4.0.18",
-    "@synconset/dx-react-core": "^4.0.18",
-    "@synconset/dx-testing": "^4.0.18",
+    "@synconset/dx-chart-core": "^4.0.19",
+    "@synconset/dx-react-chart": "^4.0.19",
+    "@synconset/dx-react-core": "^4.0.19",
+    "@synconset/dx-testing": "^4.0.19",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
