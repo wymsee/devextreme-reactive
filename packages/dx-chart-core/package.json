@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-chart-core",
-  "version": "4.0.16",
+  "version": "4.0.17",
   "description": "Core library for the Synconset Reactive Chart component",
   "author": {
     "name": "Synconset Inc.",
@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-replace": "^2.3.1",
-    "@synconset/dx-core": "^4.0.16",
+    "@synconset/dx-core": "^4.0.17",
     "@types/d3-array": "^2.12.2",
     "@types/d3-scale": "^4.0.2",
     "@types/d3-shape": "^2.1.0",

@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-grid-material-ui",
-  "version": "4.0.16",
+  "version": "4.0.17",
   "description": "Material-UI templates for Synconset React Grid component",
   "author": {
     "name": "Synconset Inc.",
@@ -70,10 +70,10 @@
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.6",
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "@synconset/dx-grid-core": "^4.0.16",
-    "@synconset/dx-react-core": "^4.0.16",
-    "@synconset/dx-react-grid": "^4.0.16",
-    "@synconset/dx-testing": "^4.0.16",
+    "@synconset/dx-grid-core": "^4.0.17",
+    "@synconset/dx-react-core": "^4.0.17",
+    "@synconset/dx-react-grid": "^4.0.17",
+    "@synconset/dx-testing": "^4.0.17",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
