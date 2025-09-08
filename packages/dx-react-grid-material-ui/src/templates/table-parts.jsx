@@ -26,14 +26,15 @@ const StyledFooter = styled(TableFooter)(({ theme }) => ({
   },
 }));
 
-export const Head = ({
-  isFixed, className, ...restProps
-}) => (
-  <StyledHead
-    className={classNames({ [classes.fixedHeader]: isFixed }, className)}
-    {...restProps}
-  />
-);
+export const Head = (props) => {
+  const { isFixed, className, ...restProps } = props;
+  return (
+    <StyledHead
+      className={classNames({ [classes.fixedHeader]: isFixed }, className)}
+      {...restProps}
+    />
+  );
+};
 
 Head.propTypes = {
   className: PropTypes.string,
@@ -45,7 +46,10 @@ Head.defaultProps = {
   className: undefined,
 };
 
-export const Body = ({ isFixed, ...props }) => <TableBody {...props} />;
+export const Body = (props) => {
+  const { isFixed, ...restProps } = props;
+  return <TableBody {...restProps} />;
+};
 Body.propTypes = {
   isFixed: PropTypes.bool,
 };
@@ -54,9 +58,12 @@ Body.defaultProps = {
   isFixed: undefined,
 };
 
-export const Footer = ({ isFixed, ...props }) => (
-  <StyledFooter className={classNames({ [classes.fixedFooter]: isFixed })} {...props} />
-);
+export const Footer = (props) => {
+  const { isFixed, ...restProps } = props;
+  return (
+    <StyledFooter className={classNames({ [classes.fixedFooter]: isFixed })} {...restProps} />
+  );
+};
 
 Footer.propTypes = {
   isFixed: PropTypes.bool,

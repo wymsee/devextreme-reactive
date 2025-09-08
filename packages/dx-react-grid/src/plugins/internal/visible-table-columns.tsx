@@ -17,7 +17,7 @@ const visibleTableColumnsComputed = (
 export const VisibleTableColumns: React.FunctionComponent<
   VisibleTableColumnsProps
 > = React.memo(({
-  hiddenColumnNames,
+  hiddenColumnNames = [],
 }) => (
   <Plugin>
     <Getter name="hiddenColumnNames" value={hiddenColumnNames} />
@@ -25,6 +25,3 @@ export const VisibleTableColumns: React.FunctionComponent<
   </Plugin>
 ));
 
-VisibleTableColumns.defaultProps = {
-  hiddenColumnNames: [],
-};

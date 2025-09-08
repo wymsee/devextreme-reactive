@@ -109,8 +109,14 @@ const defaultProps = {
   tableComponent: ({ forwardedRef, ...props }) => {
     return <table {...props} />;
   },
-  headComponent: ({ isFixed, ...props }) => <thead {...props} />,
-  bodyComponent: ({ isFixed, ...props }) => <tbody {...props} />,
+  headComponent: (props) => {
+    const { isFixed, ...restProps } = props;
+    return <thead {...restProps} />;
+  },
+  bodyComponent: (props) => {
+    const { isFixed, ...restProps } = props;
+    return <tbody {...restProps} />;
+  },
   rowComponent: () => {
     return null;
   },
