@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-grid",
-  "version": "4.0.21",
+  "version": "4.0.22",
   "description": "Composable plugin-based data grid component for React",
   "author": {
     "name": "Synconset Inc.",

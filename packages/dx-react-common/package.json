@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@synconset/dx-react-common",
-  "version": "4.0.21",
+  "version": "4.0.22",
   "description": "Synconset React Components",
   "author": {
     "name": "Synconset Inc.",
@@ -18,7 +18,7 @@
   "dependencies": {
     "@synconset/dx-demo-shell": "^4.0.19",
     "@synconset/dx-react-chart-demos": "^4.0.19",
-    "@synconset/dx-react-grid-demos": "^4.0.21",
+    "@synconset/dx-react-grid-demos": "^4.0.22",
     "@synconset/dx-react-scheduler-demos": "^4.0.19",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

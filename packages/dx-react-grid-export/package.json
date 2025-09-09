@@ -1,6 +1,6 @@
 {
   "name": "@synconset/dx-react-grid-export",
-  "version": "4.0.21",
+  "version": "4.0.22",
   "description": "Export component for Synconset Reactive Grid",
   "author": {
     "name": "Synconset Inc.",
@@ -70,7 +70,7 @@
     "@rollup/plugin-replace": "^2.3.1",
     "@synconset/dx-core": "^4.0.19",
     "@synconset/dx-react-core": "^4.0.19",
-    "@synconset/dx-react-grid": "^4.0.21",
+    "@synconset/dx-react-grid": "^4.0.22",
     "@synconset/dx-testing": "^4.0.19",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^7.0.0-bridge.0",
